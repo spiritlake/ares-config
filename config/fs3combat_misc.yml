@@ -13,6 +13,7 @@ fs3combat:
       defense_skill: Reflexes
     Unarmed Combatant:
       weapon: Unarmed
+      armor: None
       hitloc: Humanoid
       defense_skill: Reflexes
     Target:
@@ -22,7 +23,7 @@ fs3combat:
     Quadraped:
       hitloc: Quadraped
       weapon: Unarmed
-      defense_skill: Reflexes      
+      defense_skill: Reflexes
   default_type: Unarmed Combatant
   shortcuts:
     combat/skill: combat/summary
@@ -34,7 +35,6 @@ fs3combat:
     vehicles: vehicle
     hospitals: hospital/list
     healing: heal/list
-    weapons: weapon
     mounts: mount
     attack: combat/attack
     combat/aoe: combat/explode
