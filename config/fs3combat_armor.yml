@@ -1,0 +1,152 @@
+---
+fs3combat:
+  armor:
+    None:
+      description: In case you need to take off armor
+      is_magic: false
+      defense: 0
+      protection:
+        Nowhere: 0
+    Tactical:
+      description: Military-Grade Kevlar Vest and Helmet
+      is_magic: false
+      defense: 0
+      protection:
+        Head: 7
+        Neck: 5
+        Chest: 8
+        Abdomen: 7
+    Police:
+      description: Police-Grade Kevlar Vest
+      is_magic: false
+      defense: 0
+      protection:
+        Chest: 7
+        Abdomen: 6
+      allowed_specials:
+      - Helmet
+#Spells
+  #Earth
+    #Level 4
+    Rock Skin:
+      description: Level 4 Earth spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 8
+        Neck: 8
+        Chest: 8
+        Abdomen: 8
+        Left Leg: 8
+        Right Leg: 8
+        Groin: 8
+        Left Arm: 8
+        Right Arm: 8
+        Left Hand: 8
+        Right Hand: 8
+        Left Foot: 8
+        Right Foot: 8
+    Crystalline:
+      description: Level 4 Earth spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 11
+        Neck: 11
+        Chest: 11
+        Abdomen: 11
+        Left Leg: 11
+        Right Leg: 11
+        Groin: 11
+        Left Arm: 11
+        Right Arm: 11
+        Left Hand: 11
+        Right Hand: 11
+        Left Foot: 11
+        Right Foot: 11
+  #Nature
+    #Level 2 Nature
+    Crocodile:
+      description: Level 2 Nature spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 4
+        Neck: 4
+        Chest: 4
+        Abdomen: 4
+        Left Leg: 4
+        Right Leg: 4
+        Groin: 4
+        Left Arm: 4
+        Right Arm: 4
+        Left Hand: 4
+        Right Hand: 4
+        Left Foot: 4
+        Right Foot: 4
+  #Water
+    #Level 4
+    Ice:
+      description: Level 4 Water spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 8
+        Neck: 8
+        Chest: 8
+        Abdomen: 8
+        Left Leg: 8
+        Right Leg: 8
+        Groin: 8
+        Left Arm: 8
+        Right Arm: 8
+        Left Hand: 8
+        Right Hand: 8
+        Left Foot: 8
+        Right Foot: 8
+  #Will
+    #Level 4
+    Telekinetic:
+      description: Level 4 Will spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 11
+        Neck: 11
+        Chest: 11
+        Abdomen: 11
+        Left Leg: 11
+        Right Leg: 11
+        Groin: 11
+        Left Arm: 11
+        Right Arm: 11
+        Left Hand: 11
+        Right Hand: 11
+        Left Foot: 11
+        Right Foot: 11
+    #Level 6
+    Transmutation:
+      description: Level 6 Will spell
+      is_magic: true
+      defense: 0
+      protection:
+        Head: 17
+        Neck: 17
+        Chest: 17
+        Abdomen: 17
+        Left Leg: 17
+        Right Leg: 17
+        Groin: 17
+        Left Arm: 17
+        Right Arm: 17
+        Left Hand: 17
+        Right Hand: 17
+        Left Foot: 17
+        Right Foot: 17
+
+  armor specials:
+    Helmet:
+      description: A helmet
+      is_magic: false
+      protection:
+        Head: 4

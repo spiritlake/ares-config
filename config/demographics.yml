@@ -1,0 +1,71 @@
+---
+demographics:
+  demographics:
+  - actor
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - fullname
+  - gender
+  - birthdate
+  disable_auto_shortcuts: false
+  editable_properties:
+  - fullname
+  - hair
+  - physique
+  groups:
+    Major School:
+      desc: The school of magic with which you have a major affinity.
+      values:
+        None: None
+        Air: Magic focused on air, wind, and lightning.
+        Corpus: Magic focused on the body of sentient creatures.
+        Earth: Magic focused on earth, rock, and metal.
+        Fire: Magic focused on fire, heat, and light.
+        Nature: Magic focused on plants and non-sentient animals.
+        Spirit: Magic focused on the sentient mind, emotions, and spirit.
+        Water: Magic focused on water and ice.
+        Will: Magic focused on the physical world.
+    Minor School:
+      desc: The school of magic with which you have a minor affinity.
+      values:
+        None: None
+        Air: Magic focused on air, wind, and lightning.
+        Corpus: Magic focused on the body of sentient creatures.
+        Earth: Magic focused on earth, rock, and metal.
+        Fire: Magic focused on fire, heat, and light.
+        Nature: Magic focused on plants and non-sentient animals.
+        Spirit: Magic focused on the sentient mind, emotions, and spirit.
+        Water: Magic focused on water and ice.
+        Will: Magic focused on the physical world.
+  secret_prefs:
+    None: No secrets at all
+    Known: You know the secret about your character
+    GM: Only GMs know the secret about your character until it comes out in play
+  help_text:
+    actor: "%xcactor <actor>%xn - See 'help actors'."
+    physique: "%xcphysique <build/body type>%xn - athletic, wiry, slim, pudgy, etc."
+    gender: "%xcgender <male/female/other>%xn"
+    hair: "%xchair <hair color>%xn"
+    eyes: "%xceyes <eye color>%xn"
+    skin: "%xcskin <complexion>%xn"
+    birthdate: "%xcbirthdate <mm/dd/yyy>%xn or %xcage <years>%xn"
+  max_age: 65
+  min_age: 18
+  nickname_field: callsign
+  nickname_format: "%{name} (%{nickname})"
+  required_properties:
+  - hair
+  - eyes
+  - skin
+  - height
+  - physique
+  - fullname
+  - gender
+  - birthdate
+  shortcuts:
+    groups: group
+    colonies: group colony
+    demographics: demographic

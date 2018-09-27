@@ -1,0 +1,201 @@
+---
+spells:
+# Air
+  #Level 1
+  Gust:
+    name: 'Gust'
+    level: 1
+    school: Air
+    desc: Gust desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 2
+  Shape Air:
+    name: 'Shape Air'
+    level: 2
+    school: Air
+    desc: Shape Air desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+  Wavering Aim:
+    name: 'Wavering Aim'
+    level: 2
+    school: Air
+    desc: Wavering Aim desc
+    is_stun: false
+    require_target: false
+    is_revive: false
+    attack_mod: -1
+  Cloud Cover:
+    name: 'Cloud Cover'
+    level: 2
+    school: Air
+    desc: Cloud Cover desc
+    target_optional: true
+    is_revive: false
+    is_stun: false
+    stance: Hidden
+    is_potion: true
+  #Level 3
+  Whispering Wind :
+    name: 'Whispering Wind '
+    level: 3
+    school: Air
+    desc: Whispering Wind desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Wind Wall:
+    name: 'Wind Wall'
+    level: 3
+    school: Air
+    desc: Wind Wall  desc
+    target_optional: true
+    is_revive: false
+    is_stun: false
+    stance: cover
+  Electric Surge:
+    name: 'Electric Surge'
+    level: 3
+    school: Air
+    desc: Electric Surge desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Shock:
+    name: 'Shock'
+    level: 3
+    school: Air
+    desc: Shock desc
+    require_target: false
+    is_revive: false
+    is_stun: true
+    roll: false
+    is_potion: false
+  #Level 4
+  Potions:
+    name: 'Potions'
+    level: 4
+    school: Air
+    desc: Potions desc
+  Lightning Weapon :
+    name: 'Lightning Weapon '
+    level: 4
+    school: Air
+    desc: Lightning Weapon  desc
+    require_target: false
+    target_optional: true
+    is_revive: false
+    is_stun: false
+    weapon_specials: Lightning
+    is_potion: true
+  Air Walk:
+    name: 'Air Walk '
+    level: 4
+    school: Air
+    desc: Air Walk  desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Steady Wind:
+    name: 'Steady Wind '
+    level: 4
+    school: Air
+    desc: Steady Wind desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Minor Suffocation:
+    name: 'Minor Suffocation'
+    level: 4
+    school: Air
+    desc: Minor Suffocation desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    weapon: Minor Suffocation
+  Air Blast:
+    name: 'Air Blast '
+    level: 4
+    school: Air
+    desc: Air Blast  desc
+    require_target: false
+    is_revive: false
+    is_stun: true
+    weapon: Stun
+  Air Scooter:
+    name: 'Air Scooter'
+    level: 4
+    school: Air
+    desc: Air Scooter desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Still Winds:
+    name: 'Still Winds'
+    level: 4
+    school: Air
+    desc: Still Winds desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Lightning Bolt:
+    name: 'Lightning Bolt'
+    level: 4
+    school: Air
+    desc: Lightning Bolt desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    weapon: Lightning Bolt
+  #Level 5
+  Blow Object:
+    name: 'Blow Object'
+    level: 4
+    school: Air
+    desc: Blow Object desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    weapon: Blow Object
+  #Level 6
+  Familiar:
+    name: Familiar
+    level: 6
+    school: Air
+    desc: Familiar  desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Wind Rider:
+    name: Wind Rider
+    level: 6
+    school: Air
+    desc: Wind Rider  desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 7
+  Suffocate Enemy:
+    name: Suffocate Enemy
+    level: 7
+    school: Air
+    desc: Suffocate Enemy  desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    weapon: Suffocate Enemy
+  #Level 8
