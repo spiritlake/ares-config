@@ -2,7 +2,7 @@
 fs3skills:
   action_skills:
   - name: Alertness
-    desc: Being aware of your surroundings.
+    desc: Being aware of your surroundings. Affects your ability to react quickly in combat.
     linked_attr: Perception
     is_school: false
   - name: Archery
@@ -18,7 +18,7 @@ fs3skills:
     linked_attr: Brawn
     is_school: false
   - name: Composure
-    desc: Coolness under pressure.
+    desc: Coolness under pressure. Affects your ability to keep going in combat.
     linked_attr: Grit
     is_school: false
   - name: Firearms
