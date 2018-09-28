@@ -620,7 +620,8 @@ spells:
     level: 3
     school: Nature
     desc: Swarm
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
