@@ -97,12 +97,13 @@ spells:
     level: 3
     school: Air
     desc: Shock desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
     roll: false
     is_potion: false
+    weapon: Stun
   #Level 4
   "Potions (Air)":
     name: 'Potions'
@@ -144,7 +145,8 @@ spells:
     level: 4
     school: Air
     desc: Minor Suffocation desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Minor Suffocation
@@ -153,7 +155,8 @@ spells:
     level: 4
     school: Air
     desc: Air Blast  desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -180,9 +183,10 @@ spells:
     level: 4
     school: Air
     desc: Lightning Bolt desc
-    require_target: false
+    require_target: yes
     is_revive: false
     is_stun: false
+    fs3_attack: true
     weapon: Lightning Bolt
   #Level 5
   Blow Object:
@@ -190,7 +194,8 @@ spells:
     level: 4
     school: Air
     desc: Blow Object desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Blow Object
@@ -219,7 +224,8 @@ spells:
     level: 7
     school: Air
     desc: Suffocate Enemy  desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Suffocate Enemy
@@ -335,7 +341,7 @@ spells:
     require_target: true
     is_revive: false
     is_stun: false
-    roll: true
+    roll: false
     damage_inflicted: IMPAIR
     damage_desc: "Impair Spell"
   Agility:
@@ -407,9 +413,8 @@ spells:
     target_optional: true
     is_revive: false
     is_stun: false
-    roll: true
+    roll: false
     heal_points: 17
-    multi_target: true
   #Level 7
   Brink Of Death:
     level: 7
@@ -487,7 +492,8 @@ spells:
     level: 3
     school: Fire
     desc: Hot Hands desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Hot Hands
@@ -513,7 +519,8 @@ spells:
     level: 4
     school: Fire
     desc: Hot Hands desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Flame Burst
@@ -561,7 +568,8 @@ spells:
     level: 8
     school: Fire
     desc: Firestorm desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Firestorm
@@ -601,7 +609,8 @@ spells:
     level: 3
     school: Nature
     desc: Entangle
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -619,7 +628,8 @@ spells:
     level: 3
     school: Nature
     desc: Thorn Growth
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Thorn Growth
@@ -671,13 +681,14 @@ spells:
     level: 4
     school: Nature
     desc: Acid Spit
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Acid Spit
 
   #Level 5
-  Wild Shape:
+  Wild Shape Moth:
     name: Wild Shape
     level: 5
     school: Nature
@@ -685,7 +696,8 @@ spells:
     require_target: false
     is_revive: false
     is_stun: false
-    roll: true
+    roll: false
+    armor_specials: Moth
   #Level 6
   "Familiar (Nature)":
     name: Familiar
@@ -711,7 +723,8 @@ spells:
     level: 6
     school: Nature
     desc: Poison Puffs desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Poison Puffs
@@ -799,7 +812,8 @@ spells:
     level: 3
     school: Spirit
     desc: Flagging Spirits desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -850,7 +864,8 @@ spells:
     level: 3
     school: Spirit
     desc: Mind Bolt
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Mind Bolt
@@ -865,15 +880,6 @@ spells:
     level: 4
     school: Spirit
     desc: Telepathic Reading
-    target_optional: true
-    is_revive: false
-    is_stun: false
-    roll: true
-  Compel Truth:
-    name: Compel Truth
-    level: 4
-    school: Spirit
-    desc: Compel Truth
     target_optional: true
     is_revive: false
     is_stun: false
@@ -958,15 +964,6 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
-  Pass Unseen:
-    name: Pass Unseen
-    level: 5
-    school: Spirit
-    desc: Pass Unseen
-    target_optional: true
-    is_revive: false
-    is_stun: false
-    roll: true
   #Level 6
   "Familiar (Spirit)":
     name: Familiar
@@ -992,16 +989,7 @@ spells:
     level: 7
     school: Spirit
     desc: Clarity desc
-    target_optional: true
-    is_revive: false
-    is_stun: false
-    roll: true
-  Rewrite History:
-    name: Rewrite History
-    level: 7
-    school: Spirit
-    desc: Rewrite History desc
-    target_optional: true
+    require_target: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1063,7 +1051,8 @@ spells:
     school: Water
     desc: Chill Touch desc
     weapon: Chill Touch
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     is_potion: true
@@ -1093,7 +1082,8 @@ spells:
     level: 3
     school: Water
     desc: Ice Talons desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     is_potion: true
@@ -1103,7 +1093,8 @@ spells:
     level: 3
     school: Water
     desc: Water Cannon  desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -1139,7 +1130,8 @@ spells:
     level: 4
     school: Water
     desc: Water Whip desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Water Whip
@@ -1148,7 +1140,8 @@ spells:
     level: 4
     school: Water
     desc: Freeze Blast desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Freeze Blast
@@ -1158,7 +1151,8 @@ spells:
     level: 5
     school: Water
     desc: Slick Ground desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Slick Ground
@@ -1167,7 +1161,8 @@ spells:
     level: 5
     school: Water
     desc: Exploding Ice desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Exploding Ice
@@ -1197,7 +1192,8 @@ spells:
     level: 7
     school: Water
     desc: Ice Storm desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Ice Storm
@@ -1207,7 +1203,8 @@ spells:
     level: 8
     school: Water
     desc: Land Of Ice desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Land Of Ice
@@ -1239,7 +1236,8 @@ spells:
     level: 3
     school: Will
     desc: Telekinetic Hold desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -1291,7 +1289,8 @@ spells:
     level: 4
     school: Will
     desc: Telekinetic Burst desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Telekinetic Burst
@@ -1357,7 +1356,8 @@ spells:
     level: 7
     school: Will
     desc: Mass Telekinetic Burst desc
-    require_target: false
+    require_target: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Mass Telekinetic Burst

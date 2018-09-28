@@ -7,7 +7,7 @@ fs3skills:
     for details.'
   attributes:
   - name: Reflexes
-    desc: Reflexes, dexterity, and hand-eye coordination.
+    desc: Reflexes, dexterity, dodging, and hand-eye coordination.
   - name: Brawn
     desc: Physical strength and toughness.
   - name: Wits
