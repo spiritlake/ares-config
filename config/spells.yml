@@ -44,6 +44,7 @@ spells:
     require_target: false
     is_revive: false
     is_stun: false
+    roll: true
   Wavering Aim:
     name: 'Wavering Aim'
     level: 2
@@ -247,7 +248,7 @@ spells:
     level: 1
     school: Corpus
     desc: Graze desc
-    require_target: false
+    target_optional: true
     is_revive: false
     is_stun: false
     roll: true
