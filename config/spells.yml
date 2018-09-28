@@ -1358,6 +1358,7 @@ spells:
     school: Will
     desc: Mass Telekinetic Burst desc
     require_target: true
+    multi_target: true
     fs3_attack: true
     is_revive: false
     is_stun: false
