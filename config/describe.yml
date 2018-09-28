@@ -19,6 +19,7 @@ describe:
     vista/add: vista/set
     vista/create: vista/set
     vista/remove: vista/delete
+    here: glance
   tag_colors:
     admin: "%xb"
     beginner: "%xg"

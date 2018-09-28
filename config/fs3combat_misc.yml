@@ -36,6 +36,7 @@ fs3combat:
     hospitals: hospital/list
     healing: heal/list
     mounts: mount
+    weapons: weapon
     attack: combat/attack
     combat/aoe: combat/explode
     aoe: combat/explode
