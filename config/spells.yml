@@ -1026,7 +1026,7 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
-  Curse of Twilight:
+  Curse Of Twilight:
     name: Curse of Twilight
     level: 8
     school: Spirit
