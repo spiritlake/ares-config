@@ -934,7 +934,8 @@ spells:
     level: 5
     school: Spirit
     desc: Simple Command
-    target_optional: true
+    target_optional: false
+    multi_target: true
     is_revive: false
     is_stun: false
     roll: true
@@ -1020,7 +1021,7 @@ spells:
     level: 7
     school: Spirit
     desc: Rewrite History desc
-    require_target: false
+    target_optional: true
     is_revive: false
     is_stun: false
     roll: true
