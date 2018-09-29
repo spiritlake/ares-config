@@ -986,6 +986,16 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Sleep:
+    name: Sleep
+    level: 6
+    school: Spirit
+    desc: Sleep desc
+    target_optional: true
+    is_revive: false
+    #Event though this kind of is, it does not use the subdue code
+    is_stun: false
+    roll: true
   #Level 7
   Clarity:
     name: Clarity
