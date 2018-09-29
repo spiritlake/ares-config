@@ -1026,6 +1026,15 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Curse of Twilight:
+    name: Curse of Twilight
+    level: 8
+    school: Spirit
+    desc: Curse of Twilight desc
+    target_optional: true
+    is_revive: false
+    is_stun: false
+    roll: true
 # Water
   #Level 1
   Create Water:
