@@ -967,6 +967,15 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Pass Unseen:
+    name: Pass Unseen
+    level: 5
+    school: Spirit
+    desc: Pass Unseen
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 6
   "Familiar (Spirit)":
     name: Familiar
@@ -1002,6 +1011,15 @@ spells:
     level: 7
     school: Spirit
     desc: Clarity desc
+    require_target: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Rewrite History:
+    name: Rewrite History
+    level: 7
+    school: Spirit
+    desc: Rewrite History desc
     require_target: false
     is_revive: false
     is_stun: false
