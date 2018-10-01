@@ -406,6 +406,22 @@ fs3combat:
       init_mod: 0
       allowed_specials:
       special_group: ranged
+    #Level 8
+    Tempest :
+      description: Level 8 Air spell
+      is_magic: true
+      skill: Air
+      lethality: 80
+      penetration: 25
+      weapon_type: Explosive
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 4
+      has_shrapnel: true
+      init_mod: 0
+      allowed_specials:
+      special_group: ranged
   #Corpus
     #Level 3
 

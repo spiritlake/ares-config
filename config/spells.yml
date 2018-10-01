@@ -231,6 +231,16 @@ spells:
     is_stun: false
     weapon: Suffocate Enemy
   #Level 8
+  Tempest:
+    name: Tempest
+    level: 8
+    school: Air
+    desc: Tempest desc
+    require_target: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Tempest
 # Corpus
   #Level 1
   "Breath Of Healing":
