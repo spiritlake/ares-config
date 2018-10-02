@@ -2,7 +2,7 @@
 fs3skills:
   action_skills:
   - name: Alertness
-    desc: Being aware of your surroundings. Affects your ability to react quickly in combat.
+    desc: Awareness of your surroundings. Reaction in combat.
     linked_attr: Perception
     is_school: false
   - name: Archery
@@ -18,7 +18,7 @@ fs3skills:
     linked_attr: Brawn
     is_school: false
   - name: Composure
-    desc: Coolness under pressure. Affects your ability to keep going in combat.
+    desc: Coolness under pressure. Keep going in combat.
     linked_attr: Grit
     is_school: false
   - name: Firearms
@@ -54,7 +54,7 @@ fs3skills:
     linked_attr: Magic
     is_school: true
   - name: Corpus
-    desc: Magic focused on the body of sentient creatures.
+    desc: Magic focused on the body of sapient creatures.
     linked_attr: Magic
     is_school: true
   - name: Earth
@@ -66,11 +66,11 @@ fs3skills:
     linked_attr: Magic
     is_school: true
   - name: Nature
-    desc: Magic focused on plants and non-sentient animals.
+    desc: Magic focused on plants and non-sapient animals.
     linked_attr: Magic
     is_school: true
   - name: Spirit
-    desc: Magic focused on the sentient mind, emotions, and spirit.
+    desc: Magic focused on the sapient mind, emotions, and spirit.
     linked_attr: Magic
     is_school: true
   - name: Water
