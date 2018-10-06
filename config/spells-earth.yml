@@ -37,7 +37,8 @@ spells:
     school: Earth
     desc: Skipping Stone desc
     weapon: Skipping Stones
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
   Floating Earth:
@@ -55,7 +56,8 @@ spells:
     school: Earth
     desc: Earth Bolt desc
     weapon: Earth Bolt
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
   Stone Slam:
@@ -64,7 +66,8 @@ spells:
     school: Earth
     desc: Stone Slam desc
     weapon: Stone Slam
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
   #Level 4 Earth
@@ -111,7 +114,8 @@ spells:
     level: 5
     school: Earth
     desc: Earth Shudder desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Earth Shudder
@@ -120,7 +124,8 @@ spells:
     level: 5
     school: Earth
     desc: Stalagmite desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Stalagmite
@@ -134,32 +139,35 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
-  Daggers of Stone:
-    name: Daggers of Stone
+  Stone Daggers:
+    name: Stone Daggers
     level: 6
     school: Earth
     desc: Familiar  desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
-    weapon: Daggers of Stone
+    weapon: Stone Daggers
   #Level 7
   Exploding Earth:
     name: Exploding Earth
     level: 7
     school: Earth
     desc: Exploding Earth desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Exploding Earth
-  #Level 8 
+  #Level 8
   Massive Quake:
     name: 'Massive Quake'
     level: 8
     school: Earth
     desc: Massive Quake
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Massive Quake
