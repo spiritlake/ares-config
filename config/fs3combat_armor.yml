@@ -143,19 +143,19 @@ fs3combat:
       is_magic: true
       defense: 0
       protection:
-        Head: 17
-        Neck: 17
-        Chest: 17
-        Abdomen: 17
-        Left Leg: 17
-        Right Leg: 17
-        Groin: 17
-        Left Arm: 17
-        Right Arm: 17
-        Left Hand: 17
-        Right Hand: 17
-        Left Foot: 17
-        Right Foot: 17
+        Head: 14
+        Neck: 14
+        Chest: 14
+        Abdomen: 14
+        Left Leg: 14
+        Right Leg: 14
+        Groin: 14
+        Left Arm: 14
+        Right Arm: 14
+        Left Hand: 14
+        Right Hand: 14
+        Left Foot: 14
+        Right Foot: 14
 
   armor specials:
     Modern Helmet:

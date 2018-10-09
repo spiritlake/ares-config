@@ -566,7 +566,7 @@ spells:
     is_stun: false
     roll: true
   "Phoenix's Healing Flames":
-    name: hoenix's Healing Flames
+    name: Phoenix's Healing Flames
     level: 7
     school: Fire
     desc: Phoenix's Healing Flames desc
@@ -584,6 +584,14 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Firestorm
+  "Phoenix's Last Flight":
+    name: Phoenix's Last Flight"
+    level: 8
+    school: Fire
+    desc: Phoenix's Last Flight" desc
+    is_revive: false
+    is_stun: false
+    is_res: true
 # Nature
   #Level 1
   Create Bloom:
