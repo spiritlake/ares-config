@@ -39,8 +39,8 @@ fs3skills:
       '2': 12
   xp_cron:
     day_of_week:
-    - Sat
+    - Wed
     hour:
-    - 21
+    - 23
     minute:
     - 0

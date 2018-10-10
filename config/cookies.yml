@@ -2,9 +2,9 @@
 cookies:
   cookie_award_cron:
     day_of_week:
-    - Fri
+    - Wed
     hour:
-    - 22
+    - 23
     minute:
     - 0
   cookie_category: Cookie Awards
