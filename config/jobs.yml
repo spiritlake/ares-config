@@ -28,10 +28,13 @@ jobs:
     SYS:
       color: "%xh"
     SPELL:
-      color: "%xh"
+      color: "%xB"
+    LUCK:
+      color: "%xY"      
   closed_status: DONE
   default_status: NEW
   request_category: REQ
+  luck_category: LUCK
   shortcuts:
     jobs/mine: job/filter mine
     jobs/active: job/filter active
