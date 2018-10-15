@@ -31,12 +31,12 @@ spells:
     is_stun: false
     roll: true
   #Level 3
-  Skipping Stones:
-    name: 'Skipping Stones'
+  Skipping Stone:
+    name: 'Skipping Stone'
     level: 3
     school: Earth
     desc: Skipping Stone desc
-    weapon: Skipping Stones
+    weapon: Skipping Stone
     target_optional: true
     fs3_attack: true
     is_revive: false
