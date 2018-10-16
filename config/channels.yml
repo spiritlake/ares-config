@@ -9,6 +9,7 @@ channels:
   - Questions
   - Chat
   - RP Requests
+  - Big Scene
   end_marker: "]"
   shortcuts:
     chat: channel
