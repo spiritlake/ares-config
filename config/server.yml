@@ -8,3 +8,5 @@ server:
     web_portal_port: 443
     
     engine_api_port: 4203
+
+    ssl: true
