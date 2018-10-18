@@ -23,6 +23,7 @@ fs3combat:
       - transform
       - agility
       - rosewing
+      - test
   weapon specials:
     Sparring:
       description: Padded sparring equipment
@@ -320,7 +321,7 @@ fs3combat:
       is_magic: false
       skill: Melee
       lethality: 10
-      penetration: 10
+      penetration: 12
       weapon_type: Melee
       is_automatic: false
       recoil: 0
