@@ -10,6 +10,7 @@ fs3combat:
       - ice
       - transform
       - agility
+      - rosewing
     Melee:
       - strength
       - sparring
@@ -21,11 +22,15 @@ fs3combat:
       - ice
       - transform
       - agility
+      - rosewing
+      - test
   weapon specials:
     Sparring:
       description: Padded sparring equipment
       is_magic: false
       lethality: -50
+
+  #Magic Items Weapon specials
 
 
   #Spell Weapon Specials
@@ -316,7 +321,7 @@ fs3combat:
       is_magic: false
       skill: Melee
       lethality: 10
-      penetration: 10
+      penetration: 12
       weapon_type: Melee
       is_automatic: false
       recoil: 0
