@@ -7,7 +7,7 @@ spells:
     # desc:
     # is_stun: false
     # is_revive: false
-    # require_target: false
+    # target_optional: false
     # target_optional: false
     # roll:
     # weapon:
@@ -31,17 +31,18 @@ spells:
     level: 1
     school: Air
     desc: Gust desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
+    target_num: 1
   #Level 2
   Shape Air:
     name: 'Shape Air'
     level: 2
     school: Air
     desc: Shape Air desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -51,7 +52,7 @@ spells:
     school: Air
     desc: Wavering Aim desc
     is_stun: false
-    require_target: false
+    target_optional: false
     is_revive: false
     attack_mod: -1
   Cloud Cover:
@@ -60,6 +61,7 @@ spells:
     school: Air
     desc: Cloud Cover desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: Hidden
@@ -70,7 +72,7 @@ spells:
     level: 3
     school: Air
     desc: Whispering Wind desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -80,6 +82,7 @@ spells:
     school: Air
     desc: Wind Wall  desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: cover
@@ -88,7 +91,7 @@ spells:
     level: 3
     school: Air
     desc: Electric Surge desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -98,7 +101,7 @@ spells:
     level: 3
     school: Air
     desc: Shock desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -116,8 +119,8 @@ spells:
     level: 4
     school: Air
     desc: Lightning Weapon  desc
-    require_target: false
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     weapon_specials: Lightning
@@ -127,7 +130,7 @@ spells:
     level: 4
     school: Air
     desc: Air Walk  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -137,7 +140,7 @@ spells:
     level: 4
     school: Air
     desc: Steady Wind desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -146,7 +149,7 @@ spells:
     level: 4
     school: Air
     desc: Minor Suffocation desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -156,7 +159,7 @@ spells:
     level: 4
     school: Air
     desc: Air Blast  desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -166,7 +169,7 @@ spells:
     level: 4
     school: Air
     desc: Air Scooter desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -175,7 +178,7 @@ spells:
     level: 4
     school: Air
     desc: Still Winds desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -195,7 +198,7 @@ spells:
     level: 4
     school: Air
     desc: Blow Object desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -206,7 +209,7 @@ spells:
     level: 6
     school: Air
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -215,7 +218,7 @@ spells:
     level: 6
     school: Air
     desc: Wind Rider  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -225,7 +228,7 @@ spells:
     level: 7
     school: Air
     desc: Suffocate Enemy  desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -236,7 +239,7 @@ spells:
     level: 8
     school: Air
     desc: Tempest desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -248,7 +251,7 @@ spells:
     level: 1
     school: Corpus
     desc: Breath of Healing desc
-    require_target: true
+    target_optional: true
     is_revive: false
     is_stun: false
     heal_points: 1
@@ -259,6 +262,7 @@ spells:
     school: Corpus
     desc: Graze desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -270,6 +274,7 @@ spells:
     school: Corpus
     desc: Touch of Enfeeblement desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     attack_mod: -1
@@ -281,6 +286,7 @@ spells:
     school: Corpus
     desc: Minor Heal desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     heal_points: 3
@@ -291,7 +297,7 @@ spells:
     level: 3
     school: Corpus
     desc: Strength desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     weapon_specials: Strength
@@ -301,7 +307,7 @@ spells:
     level: 3
     school: Corpus
     desc: Flesh Wound desc
-    require_target: true
+    target_optional: true
     is_revive: false
     is_stun: false
     damage_desc: "Flesh Wound Spell"
@@ -313,6 +319,7 @@ spells:
     school: Corpus
     desc: Medium Heal desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     heal_points: 7
@@ -322,7 +329,7 @@ spells:
     level: 3
     school: Corpus
     desc: Endure Extreme Temperatures desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -338,8 +345,8 @@ spells:
     level: 4
     school: Corpus
     desc: Minor Group Heal desc
-    require_target: true
-    multi_target: true
+    target_num: 3
+    target_optional: true
     is_revive: false
     is_stun: false
     heal_points: 3
@@ -349,7 +356,8 @@ spells:
     level: 4
     school: Corpus
     desc: Impair desc
-    require_target: true
+    target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: false
@@ -360,7 +368,7 @@ spells:
     level: 4
     school: Corpus
     desc: Agility desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     weapon_specials: Agility
@@ -371,7 +379,8 @@ spells:
     level: 4
     school: Corpus
     desc: Vitality Weapon desc
-    require_target: false
+    target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     weapon_specials: Vitality
@@ -383,7 +392,7 @@ spells:
     level: 5
     school: Corpus
     desc: Grow Self desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -393,7 +402,7 @@ spells:
     level: 5
     school: Corpus
     desc: Shrink Self
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -404,7 +413,7 @@ spells:
     level: 6
     school: Corpus
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -413,7 +422,7 @@ spells:
     level: 6
     school: Corpus
     desc: Revive desc
-    require_target: true
+    target_optional: true
     is_revive: true
     is_stun: false
   Massive Heal:
@@ -422,6 +431,7 @@ spells:
     school: Corpus
     desc: Massive Heal desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: false
@@ -431,7 +441,7 @@ spells:
     level: 7
     school: Corpus
     desc: Brink of Death desc
-    require_target: true
+    target_optional: true
     is_revive: false
     is_stun: false
     roll: true
@@ -440,8 +450,8 @@ spells:
     level: 7
     school: Corpus
     desc: Group Revive desc
-    require_target: true
-    multi_target: true
+    target_optional: true
+    target_num: 3
     is_revive: true
     is_stun: false
     roll: true
@@ -455,7 +465,7 @@ spells:
     level: 1
     school: Fire
     desc: Fire Starter desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -464,7 +474,7 @@ spells:
     level: 1
     school: Fire
     desc: Flashlight desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -474,7 +484,7 @@ spells:
     level: 2
     school: Fire
     desc: Shape Fire desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -483,7 +493,7 @@ spells:
     level: 2
     school: Fire
     desc: Blur Image desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     defense_mod: 1
@@ -493,7 +503,7 @@ spells:
     level: 2
     school: Fire
     desc: Shape Light desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -503,7 +513,7 @@ spells:
     level: 3
     school: Fire
     desc: Hot Hands desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -521,6 +531,7 @@ spells:
     school: Fire
     desc: Fire Weapon desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     weapon_specials: Fire
@@ -530,7 +541,7 @@ spells:
     level: 4
     school: Fire
     desc: Hot Hands desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -542,6 +553,7 @@ spells:
     school: Fire
     desc: Shape Light desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: hidden
@@ -551,7 +563,7 @@ spells:
     level: 6
     school: Fire
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -562,6 +574,7 @@ spells:
     school: Fire
     desc: Complex Illusion desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -579,7 +592,7 @@ spells:
     level: 8
     school: Fire
     desc: Firestorm desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -599,7 +612,7 @@ spells:
     level: 1
     school: Nature
     desc: Create Bloom
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -609,7 +622,7 @@ spells:
     level: 2
     school: Nature
     desc: Shape Flora
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -618,7 +631,7 @@ spells:
     level: 2
     school: Nature
     desc: Natural Defenses Crocodile
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     armor: Crocodile
@@ -628,7 +641,7 @@ spells:
     level: 3
     school: Nature
     desc: Entangle
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -639,6 +652,7 @@ spells:
     school: Nature
     desc: Swarm
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -648,7 +662,7 @@ spells:
     level: 3
     school: Nature
     desc: Thorn Growth
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -659,6 +673,7 @@ spells:
     school: Nature
     desc: Calm Animal
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -673,7 +688,7 @@ spells:
     level: 4
     school: Nature
     desc: Photosynthesis
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     heal_points: 7
@@ -684,6 +699,7 @@ spells:
     school: Nature
     desc: Calm Animal
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -693,6 +709,7 @@ spells:
     school: Nature
     desc: Shield of the Forest
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: cover
@@ -701,7 +718,7 @@ spells:
     level: 4
     school: Nature
     desc: Acid Spit
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -713,7 +730,7 @@ spells:
     level: 5
     school: Nature
     desc: Wild Shape desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: false
@@ -725,7 +742,7 @@ spells:
     level: 6
     school: Nature
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -734,7 +751,7 @@ spells:
     level: 6
     school: Nature
     desc: Winged Flight desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -744,7 +761,7 @@ spells:
     level: 6
     school: Nature
     desc: Poison Puffs desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -755,7 +772,7 @@ spells:
     level: 7
     school: Nature
     desc: Greater Wild Shape desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -765,7 +782,7 @@ spells:
     level: 8
     school: Nature
     desc: Massive Thorn Wall desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -775,6 +792,7 @@ spells:
     school: Nature
     desc: Baleful Polymorph desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -785,7 +803,7 @@ spells:
     level: 1
     school: Spirit
     desc: Locate Object
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -795,6 +813,7 @@ spells:
     school: Spirit
     desc: Share Image
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -804,7 +823,7 @@ spells:
     level: 2
     school: Spirit
     desc: Beckon
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -814,6 +833,7 @@ spells:
     school: Spirit
     desc: Telepathic Correspondance
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -823,6 +843,7 @@ spells:
     school: Spirit
     desc: Comprehend Languages
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -833,7 +854,7 @@ spells:
     level: 3
     school: Spirit
     desc: Flagging Spirits desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -844,6 +865,7 @@ spells:
     school: Spirit
     desc: Minor Jinx
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     attack_mod: -1
@@ -856,6 +878,7 @@ spells:
     school: Spirit
     desc: Emotional Aura
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -865,6 +888,7 @@ spells:
     school: Spirit
     desc: Awaken Terror
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -874,6 +898,7 @@ spells:
     school: Spirit
     desc: Minor Luck
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     attack_mod: 1
@@ -885,7 +910,7 @@ spells:
     level: 3
     school: Spirit
     desc: Mind Bolt
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -902,6 +927,7 @@ spells:
     school: Spirit
     desc: Telepathic Reading
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -910,7 +936,8 @@ spells:
     level: 4
     school: Spirit
     desc: Group Comprehend Languages
-    require_target: false
+    target_optional: true
+    target_num: 3
     is_revive: false
     is_stun: false
     roll: true
@@ -920,7 +947,7 @@ spells:
     level: 4
     school: Spirit
     desc: Spirit of Pacifism
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -931,6 +958,7 @@ spells:
     school: Spirit
     desc: Spell Fatigue Heal
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -941,7 +969,7 @@ spells:
     level: 5
     school: Spirit
     desc: Medium Jinx
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     defense_mod: -2
@@ -952,8 +980,8 @@ spells:
     level: 5
     school: Spirit
     desc: Simple Command
-    require_target: true
-    multi_target: true
+    target_optional: true
+    target_num: 3
     is_revive: false
     is_stun: false
     roll: true
@@ -962,7 +990,7 @@ spells:
     level: 5
     school: Spirit
     desc: Medium Luck
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     defense_mod: 2
@@ -974,6 +1002,7 @@ spells:
     school: Spirit
     desc: Commune with Local Spirit
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -983,6 +1012,7 @@ spells:
     school: Spirit
     desc: Memory Dive
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -1001,7 +1031,7 @@ spells:
     level: 6
     school: Spirit
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1011,6 +1041,7 @@ spells:
     school: Spirit
     desc: Rewrite Memory desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -1020,8 +1051,9 @@ spells:
     school: Spirit
     desc: Sleep desc
     target_optional: true
+    target_num: 1
     is_revive: false
-    #Event though this kind of is, it does not use the subdue code
+    #Even though this kind of is, it does not use the subdue code
     is_stun: false
     roll: true
   #Level 7
@@ -1030,7 +1062,7 @@ spells:
     level: 7
     school: Spirit
     desc: Clarity desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1039,7 +1071,8 @@ spells:
     level: 7
     school: Spirit
     desc: Rewrite History desc
-    target_optional: truef
+    target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -1048,8 +1081,8 @@ spells:
     level: 3
     school: Spirit
     desc: Mass Awaken Terror
-    require_target: true
-    multi_target: true
+    target_optional: true
+    target_num: 3
     is_revive: false
     is_stun: false
     roll: true
@@ -1059,7 +1092,7 @@ spells:
     level: 8
     school: Spirit
     desc: Heirloom Object desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1069,6 +1102,7 @@ spells:
     school: Spirit
     desc: Curse of Twilight desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -1079,7 +1113,7 @@ spells:
     level: 1
     school: Water
     desc: Create Water desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1089,7 +1123,7 @@ spells:
     level: 2
     school: Water
     desc: Create Water desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1099,6 +1133,7 @@ spells:
     school: Water
     desc: Chilled Limbs  desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     defense_mod: -1
@@ -1110,7 +1145,7 @@ spells:
     school: Water
     desc: Chill Touch desc
     weapon: Chill Touch
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1121,7 +1156,7 @@ spells:
     level: 3
     school: Water
     desc: Water Breathing desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1131,7 +1166,7 @@ spells:
     level: 3
     school: Water
     desc: Water Walk desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1141,7 +1176,7 @@ spells:
     level: 3
     school: Water
     desc: Ice Talons desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1152,7 +1187,7 @@ spells:
     level: 3
     school: Water
     desc: Water Cannon  desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -1168,7 +1203,7 @@ spells:
     level: 4
     school: Water
     desc: Ice Armor desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     weapon: Ice Armor
@@ -1179,7 +1214,7 @@ spells:
     level: 4
     school: Water
     desc: Ice Weapon desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     weapon_specials: Ice
@@ -1189,7 +1224,7 @@ spells:
     level: 4
     school: Water
     desc: Water Whip desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1199,7 +1234,7 @@ spells:
     level: 4
     school: Water
     desc: Freeze Blast desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1210,7 +1245,7 @@ spells:
     level: 5
     school: Water
     desc: Slick Ground desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1220,7 +1255,7 @@ spells:
     level: 5
     school: Water
     desc: Exploding Ice desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1231,7 +1266,7 @@ spells:
     level: 6
     school: Water
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1240,7 +1275,7 @@ spells:
     level: 6
     desc: Liquid Form desc
     school: Water
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1251,7 +1286,7 @@ spells:
     level: 7
     school: Water
     desc: Ice Storm desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1262,7 +1297,7 @@ spells:
     level: 8
     school: Water
     desc: Land Of Ice desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1274,7 +1309,7 @@ spells:
     level: 1
     school: Will
     desc: Mend desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: Will
@@ -1285,7 +1320,7 @@ spells:
     level: 2
     school: Will
     desc: Minor Telekinesis desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: Will
@@ -1295,7 +1330,7 @@ spells:
     level: 3
     school: Will
     desc: Telekinetic Hold desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: true
@@ -1305,7 +1340,7 @@ spells:
     level: 3
     school: Will
     desc: Intermediate Telekinesis  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: Will
@@ -1315,6 +1350,7 @@ spells:
     school: Will
     desc: Telekinetic Block  desc
     target_optional: true
+    target_num: 1
     is_revive: false
     stance: cover
   #Level 4 Will
@@ -1328,7 +1364,7 @@ spells:
     level: 4
     school: Will
     desc: Transform Weapon desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     is_potion: true
@@ -1338,7 +1374,7 @@ spells:
     level: 4
     school: Will
     desc: Telekinetic Armor desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     armor: Telekinetic
@@ -1348,7 +1384,7 @@ spells:
     level: 4
     school: Will
     desc: Telekinetic Burst desc
-    require_target: true
+    target_optional: true
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1358,7 +1394,7 @@ spells:
     level: 4
     school: Will
     desc: Major Telekinesis  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1368,7 +1404,7 @@ spells:
     level: 5
     school: Will
     desc: Telekinetic Precision desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1378,6 +1414,7 @@ spells:
     school: Will
     desc: Levitate desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     roll: true
@@ -1387,7 +1424,7 @@ spells:
     level: 6
     school: Will
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1396,7 +1433,7 @@ spells:
     level: 6
     school: Will
     desc: Massive Telekinesis  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: Will
@@ -1405,7 +1442,7 @@ spells:
     level: 6
     school: Will
     desc: Transmutation Armor desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     armor: Transmutation
@@ -1415,7 +1452,8 @@ spells:
     level: 7
     school: Will
     desc: Mass Telekinetic Burst desc
-    require_target: true
+    target_optional: true
+    target_num: 3
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -1425,8 +1463,8 @@ spells:
     level: 7
     school: Will
     desc: Mass Flight Burst desc
-    require_target: true
-    multi_target: true
+    target_optional: true
+    target_num: 3
     is_revive: false
     is_stun: false
     roll: true
@@ -1436,7 +1474,7 @@ spells:
     level: 8
     school: Will
     desc: Microscopic Telekinesis desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -1445,7 +1483,7 @@ spells:
     level: 8
     school: Will
     desc: Titanic Telekinesis desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
