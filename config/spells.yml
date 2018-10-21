@@ -1016,7 +1016,7 @@ spells:
     defense_mod: 2
     attack_mod: 2
     spell_mod: 2
-  Commune with Local Spirit:
+  Commune With Local Spirit:
     name: Commune with Local Spirit
     level: 5
     school: Spirit
