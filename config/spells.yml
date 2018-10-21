@@ -519,6 +519,16 @@ spells:
     is_stun: false
     weapon: Hot Hands
     is_potion: true
+  Endure Fire:
+    name: Endure Fire
+    level: 3
+    school: Fire
+    desc: Endure Fire desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
   #Level 4 Fire
   "Potions (Fire)":
     name: 'Potions'
@@ -567,6 +577,16 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Pyre:
+    name: Pyre
+    level: 6
+    school: Fire
+    desc: Pyre desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Pyre
   #Level 7
   Complex Illusion:
     name: Complex Illusion
