@@ -49,10 +49,14 @@ scenes:
     scene/set: emit/set
     posebreak: autospace
 <<<<<<< HEAD
+<<<<<<< HEAD
   unshared_scene_cleanup_cron:
 =======
   unshared_scene_cleanup_cron: 
 >>>>>>> bb6e4e2b250e05ca6fed85f0706b49917f58aca2
+=======
+  unshared_scene_cleanup_cron:
+>>>>>>> d33b02a5e1c0ae2ed09c28bfbec0e7f45f30a617
     day_of_week:
     - Fri
     hour:
