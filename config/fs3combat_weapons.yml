@@ -534,7 +534,7 @@ fs3combat:
       weapon_type: Ranged
       is_automatic: true
       recoil: 0
-      damage_type: Physical
+      damage_type: Stun
       accuracy: 0
       has_shrapnel: false
       init_mod: 0
@@ -598,22 +598,6 @@ fs3combat:
       penetration: 7
       weapon_type: Ranged
       is_automatic: false
-      recoil: 0
-      damage_type: Physical
-      accuracy: 0
-      has_shrapnel: false
-      init_mod: 0
-      allowed_specials:
-      special_group: ranged
-    #Level 6 Fire
-    Pyre:
-      description: Level 6 Fire spell
-      is_magic: true
-      skill: Fire
-      lethality: 30
-      penetration: 12
-      weapon_type: Ranged
-      is_automatic: true
       recoil: 0
       damage_type: Physical
       accuracy: 0
@@ -687,6 +671,22 @@ fs3combat:
       init_mod: 0
       allowed_specials:
       special_group: ranged
+    Jenu:
+      description: Form for Half Shift spell
+      is_magic: true
+      skill: Strength
+      lethality: 5
+      penetration: 5
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+      special_group: Melee
+
   #Spirit
     #Level 3
     Mind Bolt:
