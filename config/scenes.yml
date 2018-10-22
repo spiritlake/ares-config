@@ -1,12 +1,21 @@
 ---
 scenes:
-  delete_unshared_scenes: false
-  include_pose_separator: false
-  ooc_color: "%xc"
   room_cleanup_cron:
     minute:
     - 15
     - 45
+    - 18
+  ooc_color: "%xc"
+  unshared_scene_cleanup_cron:
+    day_of_week:
+    - Fri
+    hour:
+    - 22
+    minute:
+    - 2
+  delete_unshared_scenes: false
+  unshared_scene_warning_days: 13
+  include_pose_separator: false
   scene_types:
   - Social
   - Event
@@ -48,25 +57,5 @@ scenes:
     repose: scene/repose
     scene/set: emit/set
     posebreak: autospace
-<<<<<<< HEAD
-<<<<<<< HEAD
-  unshared_scene_cleanup_cron:
-=======
-  unshared_scene_cleanup_cron: 
->>>>>>> bb6e4e2b250e05ca6fed85f0706b49917f58aca2
-=======
-  unshared_scene_cleanup_cron:
->>>>>>> d33b02a5e1c0ae2ed09c28bfbec0e7f45f30a617
-    day_of_week:
-    - Fri
-    hour:
-    - 22
-    minute:
-    - 2
   unshared_scene_deletion_days: 20
-  unshared_scene_warning_days: 13
-<<<<<<< HEAD
-  idle_scene_timeout_days: 3
-=======
   idle_scene_timeout_days: 5
->>>>>>> 260e32f063fc160089093cca309729d0f695b88a
