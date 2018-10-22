@@ -56,3 +56,4 @@ scenes:
     - 2
   unshared_scene_deletion_days: 20
   unshared_scene_warning_days: 13
+  idle_scene_timeout_days: 5
