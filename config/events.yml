@@ -1,6 +1,5 @@
 ---
 events:
-  calendar_timezone: GMT
   event_alert_cron:
     minute:
     - 0

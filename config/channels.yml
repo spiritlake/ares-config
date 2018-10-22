@@ -12,7 +12,6 @@ channels:
   - Big Scene
   end_marker: "]"
   shortcuts:
-    chat: channel
     chan: channel
     channels: channel
     comlist: channel
