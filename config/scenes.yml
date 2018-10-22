@@ -48,7 +48,11 @@ scenes:
     repose: scene/repose
     scene/set: emit/set
     posebreak: autospace
+<<<<<<< HEAD
   unshared_scene_cleanup_cron:
+=======
+  unshared_scene_cleanup_cron: 
+>>>>>>> bb6e4e2b250e05ca6fed85f0706b49917f58aca2
     day_of_week:
     - Fri
     hour:
