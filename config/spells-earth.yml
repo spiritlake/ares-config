@@ -7,7 +7,7 @@ spells:
     level: 1
     school: Earth
     desc: Rock Dance desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -16,7 +16,7 @@ spells:
     level: 1
     school: Earth
     desc: Create Crystal desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -26,7 +26,7 @@ spells:
     level: 2
     school: Earth
     desc: Shape Stone desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -38,6 +38,7 @@ spells:
     desc: Skipping Stone desc
     weapon: Skipping Stone
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -46,7 +47,7 @@ spells:
     level: 3
     school: Earth
     desc: Floating Earth desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -57,6 +58,7 @@ spells:
     desc: Earth Bolt desc
     weapon: Earth Bolt
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -67,6 +69,7 @@ spells:
     desc: Stone Slam desc
     weapon: Stone Slam
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -82,6 +85,7 @@ spells:
     school: Earth
     desc: Diamond Weapon desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     weapon_specials: Diamond
@@ -91,7 +95,7 @@ spells:
     level: 4
     school: Earth
     desc: Crystalline Armor desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     armor: Crystalline
@@ -101,8 +105,9 @@ spells:
     level: 4
     school: Earth
     desc: Rock Skin desc
-    require_target: false
+    target_optional: false
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     armor: Rock Skin
@@ -115,6 +120,7 @@ spells:
     school: Earth
     desc: Earth Shudder desc
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -125,6 +131,7 @@ spells:
     school: Earth
     desc: Stalagmite desc
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -135,7 +142,7 @@ spells:
     level: 6
     school: Earth
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -145,6 +152,7 @@ spells:
     school: Earth
     desc: Familiar  desc
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -156,6 +164,7 @@ spells:
     school: Earth
     desc: Exploding Earth desc
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false
@@ -167,6 +176,7 @@ spells:
     school: Earth
     desc: Massive Quake
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: false

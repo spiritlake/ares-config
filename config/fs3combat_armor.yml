@@ -97,6 +97,11 @@ fs3combat:
         Right Hand: 4
         Left Foot: 4
         Right Foot: 4
+    #Level 6 Nature
+    Jenu:
+      description: Level 6 Nature spell
+      is_magic: true
+      defense: 3
   #Water
     #Level 4
     Ice:

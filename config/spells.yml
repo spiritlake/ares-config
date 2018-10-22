@@ -723,6 +723,25 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  # Half Shift:
+  #   name: Half Shift
+  #   level: 4
+  #   school: Nature
+  #   desc: Calm Animal
+  #   target_optional: false
+  #   is_revive: false
+  #   is_stun: false
+  #   roll: true
+  'Half Shift (Jenu)':
+    name: Half Shift (Jenu)
+    level: 4
+    school: Nature
+    desc: Half Shift (Jenu)
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    weapon: Jenu
+    armor: Jenu
   Shield of the Forest:
     name: Shield of the Forest
     level: 4
@@ -1083,6 +1102,15 @@ spells:
     school: Spirit
     desc: Clarity desc
     target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Dreamtrap:
+    name: Dreamtrap
+    level: 7
+    school: Spirit
+    desc: Dreamtrap desc
+    target_optional: true
     is_revive: false
     is_stun: false
     roll: true
