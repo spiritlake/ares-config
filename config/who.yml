@@ -8,12 +8,14 @@ who:
   - field: name
     width: 20
     title: Name
-  - field: major_school
-    width: 8
-    title: Major
-  - field: minor_school
-    width: 8
-    title: Minor
+  - field: group
+    value: department
+    width: 16
+    title: Department
+  - field: group
+    value: position
+    width: 18
+    title: Position
   - field: connected
     width: 7
     title: Conn

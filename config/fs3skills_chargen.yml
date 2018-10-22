@@ -20,7 +20,7 @@ fs3skills:
   min_backgrounds: 3
   starting_skills:
     Everyone:
-      skills:
+      skills: 
     Major School:
       Air:
         skills:

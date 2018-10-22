@@ -47,6 +47,7 @@ scenes:
     repose/order: pose/order
     repose: scene/repose
     scene/set: emit/set
+    posebreak: autospace
   unshared_scene_cleanup_cron:
     day_of_week:
     - Fri
@@ -56,3 +57,4 @@ scenes:
     - 2
   unshared_scene_deletion_days: 20
   unshared_scene_warning_days: 13
+  idle_scene_timeout_days: 3
