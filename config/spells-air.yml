@@ -7,26 +7,28 @@ spells:
     level: 1
     school: Air
     desc: Gust desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
+    target_num: 1
   #Level 2
   Shape Air:
     name: 'Shape Air'
     level: 2
     school: Air
     desc: Shape Air desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
+    roll: true
   Wavering Aim:
     name: 'Wavering Aim'
     level: 2
     school: Air
     desc: Wavering Aim desc
     is_stun: false
-    require_target: false
+    target_optional: false
     is_revive: false
     attack_mod: -1
   Cloud Cover:
@@ -35,6 +37,7 @@ spells:
     school: Air
     desc: Cloud Cover desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: Hidden
@@ -45,7 +48,7 @@ spells:
     level: 3
     school: Air
     desc: Whispering Wind desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -55,6 +58,7 @@ spells:
     school: Air
     desc: Wind Wall  desc
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     stance: cover
@@ -63,7 +67,7 @@ spells:
     level: 3
     school: Air
     desc: Electric Surge desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -73,13 +77,15 @@ spells:
     level: 3
     school: Air
     desc: Shock desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     roll: false
     is_potion: false
+    weapon: Stun
   #Level 4
-  Potions:
+  "Potions (Air)":
     name: 'Potions'
     level: 4
     school: Air
@@ -89,8 +95,8 @@ spells:
     level: 4
     school: Air
     desc: Lightning Weapon  desc
-    require_target: false
     target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     weapon_specials: Lightning
@@ -100,7 +106,7 @@ spells:
     level: 4
     school: Air
     desc: Air Walk  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -110,7 +116,7 @@ spells:
     level: 4
     school: Air
     desc: Steady Wind desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -119,7 +125,8 @@ spells:
     level: 4
     school: Air
     desc: Minor Suffocation desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Minor Suffocation
@@ -128,7 +135,8 @@ spells:
     level: 4
     school: Air
     desc: Air Blast  desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: true
     weapon: Stun
@@ -137,7 +145,7 @@ spells:
     level: 4
     school: Air
     desc: Air Scooter desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -146,7 +154,7 @@ spells:
     level: 4
     school: Air
     desc: Still Winds desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -155,9 +163,10 @@ spells:
     level: 4
     school: Air
     desc: Lightning Bolt desc
-    require_target: false
+    require_target: yes
     is_revive: false
     is_stun: false
+    fs3_attack: true
     weapon: Lightning Bolt
   #Level 5
   Blow Object:
@@ -165,17 +174,18 @@ spells:
     level: 4
     school: Air
     desc: Blow Object desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Blow Object
   #Level 6
-  Familiar:
+  "Familiar (Air)":
     name: Familiar
     level: 6
     school: Air
     desc: Familiar  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -184,7 +194,7 @@ spells:
     level: 6
     school: Air
     desc: Wind Rider  desc
-    require_target: false
+    target_optional: false
     is_revive: false
     is_stun: false
     roll: true
@@ -194,8 +204,19 @@ spells:
     level: 7
     school: Air
     desc: Suffocate Enemy  desc
-    require_target: false
+    target_optional: true
+    fs3_attack: true
     is_revive: false
     is_stun: false
     weapon: Suffocate Enemy
   #Level 8
+  Tempest:
+    name: Tempest
+    level: 8
+    school: Air
+    desc: Tempest desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Tempest

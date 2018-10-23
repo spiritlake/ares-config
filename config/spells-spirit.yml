@@ -1,0 +1,702 @@
+---
+spells:
+# Spirit
+  #Level 1
+  Locate Object:
+    name: Locate Object
+    level: 1
+    school: Spirit
+    desc: Locate Object
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Share Image:
+    name: Share Image
+    level: 1
+    school: Spirit
+    desc: Share Image
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 2
+  Beckon :
+    name: Beckon
+    level: 2
+    school: Spirit
+    desc: Beckon
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Telepathic Correspondance:
+    name: Telepathic Correspondance
+    level: 2
+    school: Spirit
+    desc: Telepathic Correspondance
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Comprehend Languages:
+    name: Comprehend Languages
+    level: 2
+    school: Spirit
+    desc: Comprehend Languages
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  #Level 3
+  Flagging Spirits:
+    name: Flagging Spirits
+    level: 3
+    school: Spirit
+    desc: Flagging Spirits desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: true
+    weapon: Stun
+  Minor Jinx:
+    name: Minor Jinx
+    level: 3
+    school: Spirit
+    desc: Minor Jinx
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    attack_mod: -1
+    defense_mod: -1
+    spell_mod: -1
+    is_potion: true
+  Emotional Aura:
+    name: Emotional Aura
+    level: 3
+    school: Spirit
+    desc: Emotional Aura
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Awaken Terror:
+    name: Awaken Terror
+    level: 3
+    school: Spirit
+    desc: Awaken Terror
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Minor Luck:
+    name: Minor Luck
+    level: 3
+    school: Spirit
+    desc: Minor Luck
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    attack_mod: 1
+    defense_mod: 1
+    spell_mod: 1
+    is_potion: true
+  Mind Bolt:
+    name: Mind Bolt
+    level: 3
+    school: Spirit
+    desc: Mind Bolt
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Mind Bolt
+  #Level 4 Spirit
+  "Potions (Spirit)":
+    name: 'Potions'
+    level: 4
+    school: Spirit
+    desc: Potions desc
+  Telepathic Reading:
+    name: Telepathic Reading
+    level: 4
+    school: Spirit
+    desc: Telepathic Reading
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Group Comprehend Languages:
+    name: Group Comprehend Languages
+    level: 4
+    school: Spirit
+    desc: Group Comprehend Languages
+    target_optional: true
+    target_num: 3
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Spirit of Pacifism:
+    name: Spirit of Pacifism
+    level: 4
+    school: Spirit
+    desc: Spirit of Pacifism
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Spell Fatigue Heal:
+    name: Spell Fatigue Heal
+    level: 4
+    school: Spirit
+    desc: Spell Fatigue Heal
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  #Level 5
+  Medium Jinx :
+    name: Medium Jinx
+    level: 5
+    school: Spirit
+    desc: Medium Jinx
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    defense_mod: -2
+    attack_mod: -2
+    spell_mod: -2
+  Simple Command:
+    name: Simple Command
+    level: 5
+    school: Spirit
+    desc: Simple Command
+    target_optional: true
+    target_num: 3
+    is_revive: false
+    is_stun: false
+    roll: true
+  Medium Luck:
+    name: Medium Luck
+    level: 5
+    school: Spirit
+    desc: Medium Luck
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    defense_mod: 2
+    attack_mod: 2
+    spell_mod: 2
+  Commune With Local Spirit:
+    name: Commune with Local Spirit
+    level: 5
+    school: Spirit
+    desc: Commune with Local Spirit
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Memory Dive:
+    name: Memory Dive
+    level: 5
+    school: Spirit
+    desc: Memory Dive
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Pass Unseen:
+    name: Pass Unseen
+    level: 5
+    school: Spirit
+    desc: Pass Unseen
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 6
+  "Familiar (Spirit)":
+    name: Familiar
+    level: 6
+    school: Spirit
+    desc: Familiar  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Rewrite Memory:
+    name: Rewrite Memory
+    level: 6
+    school: Spirit
+    desc: Rewrite Memory desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Sleep:
+    name: Sleep
+    level: 6
+    school: Spirit
+    desc: Sleep desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    #Even though this kind of is, it does not use the subdue code
+    is_stun: false
+    roll: true
+  #Level 7
+  Clarity:
+    name: Clarity
+    level: 7
+    school: Spirit
+    desc: Clarity desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Dreamtrap:
+    name: Dreamtrap
+    level: 7
+    school: Spirit
+    desc: Dreamtrap desc
+    target_optional: true
+    is_revive: false
+    is_stun: false
+    roll: true
+  Rewrite History:
+    name: Rewrite History
+    level: 7
+    school: Spirit
+    desc: Rewrite History desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Mass Awaken Terror:
+    name: Mass Awaken Terror
+    level: 3
+    school: Spirit
+    desc: Mass Awaken Terror
+    target_optional: true
+    target_num: 3
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 8
+  Heirloom Object:
+    name: Heirloom Object
+    level: 8
+    school: Spirit
+    desc: Heirloom Object desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Curse Of Twilight:
+    name: Curse of Twilight
+    level: 8
+    school: Spirit
+    desc: Curse of Twilight desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+# Water
+  #Level 1
+  Create Water:
+    name: Create Water
+    level: 1
+    school: Water
+    desc: Create Water desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 2
+  Shape Water:
+    name: Create Water
+    level: 2
+    school: Water
+    desc: Create Water desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Chilled Limbs :
+    name: Chilled Limbs
+    level: 2
+    school: Water
+    desc: Chilled Limbs  desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    defense_mod: -1
+    attack_mod: -1
+    is_potion: true
+  Chill Touch:
+    name: Chill Touch
+    level: 2
+    school: Water
+    desc: Chill Touch desc
+    weapon: Chill Touch
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    is_potion: true
+  #Level 3
+  Water Breathing:
+    name: Water Breathing
+    level: 3
+    school: Water
+    desc: Water Breathing desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Water Walk:
+    name: Water Walk
+    level: 3
+    school: Water
+    desc: Water Walk desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    is_potion: true
+  Ice Talons:
+    name: Ice Talons
+    level: 3
+    school: Water
+    desc: Ice Talons desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    is_potion: true
+    weapon: Ice Talons
+  Water Cannon:
+    name: Water Cannon
+    level: 3
+    school: Water
+    desc: Water Cannon  desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: true
+    weapon: Stun
+  #Level 4 Water
+  "Potions (Water)":
+    name: 'Potions'
+    level: 4
+    school: Water
+    desc: Potions desc
+  Ice Armor:
+    name: 'Ice Armor'
+    level: 4
+    school: Water
+    desc: Ice Armor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    weapon: Ice Armor
+    armor: Ice
+    is_potion: true
+  Ice Weapon:
+    name: Ice Weapon
+    level: 4
+    school: Water
+    desc: Ice Weapon desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    weapon_specials: Ice
+    is_potion: true
+  Water Whip:
+    name: Water Whip
+    level: 4
+    school: Water
+    desc: Water Whip desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Water Whip
+  Freeze Blast:
+    name: Freeze Blast
+    level: 4
+    school: Water
+    desc: Freeze Blast desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Freeze Blast
+  #Level 5
+  Slick Ground:
+    name: Slick Ground
+    level: 5
+    school: Water
+    desc: Slick Ground desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Slick Ground
+  Exploding Ice:
+    name: Exploding Ice
+    level: 5
+    school: Water
+    desc: Exploding Ice desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Exploding Ice
+  #Level 6
+  "Familiar (Water)":
+    name: Familiar
+    level: 6
+    school: Water
+    desc: Familiar  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Liquid Form:
+    name: Liquid Form
+    level: 6
+    desc: Liquid Form desc
+    school: Water
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+    defense_mod: 10
+  #Level 7
+  Ice Storm:
+    name: Ice Storm
+    level: 7
+    school: Water
+    desc: Ice Storm desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Ice Storm
+  #Level 8
+  Land Of Ice:
+    name: Land Of Ice
+    level: 8
+    school: Water
+    desc: Land Of Ice desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Land Of Ice
+# Will
+  #Level 1
+  Mend:
+    name: 'Mend'
+    level: 1
+    school: Will
+    desc: Mend desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: Will
+    is_potion: true
+  #Level 2
+  Minor Telekinesis:
+    name: 'Minor Telekinesis'
+    level: 2
+    school: Will
+    desc: Minor Telekinesis desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: Will
+  #Level 3
+  Telekinetic Hold:
+    name: 'Telekinetic Hold'
+    level: 3
+    school: Will
+    desc: Telekinetic Hold desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: true
+    weapon: Stun
+  Intermediate Telekinesis:
+    name: 'Intermediate Telekinesis '
+    level: 3
+    school: Will
+    desc: Intermediate Telekinesis  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: Will
+  Telekinetic Block:
+    name: 'Telekinetic Block '
+    level: 3
+    school: Will
+    desc: Telekinetic Block  desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    stance: cover
+  #Level 4 Will
+  "Potions (Will)":
+    name: 'Potions'
+    level: 4
+    school: Will
+    desc: Potions desc
+  Transform Weapon:
+    name: 'Transform Weapon'
+    level: 4
+    school: Will
+    desc: Transform Weapon desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    is_potion: true
+    weapon_specials: Transform
+  Telekinetic Armor:
+    name: 'Telekinetic Armor'
+    level: 4
+    school: Will
+    desc: Telekinetic Armor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    armor: Telekinetic
+    is_potion: true
+  Telekinetic Burst:
+    name: 'Telekinetic Burst'
+    level: 4
+    school: Will
+    desc: Telekinetic Burst desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Telekinetic Burst
+  Major Telekinesis:
+    name: 'Major Telekinesis '
+    level: 4
+    school: Will
+    desc: Major Telekinesis  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 5
+  Telekinetic Precision:
+    name: 'Telekinetic Precision '
+    level: 5
+    school: Will
+    desc: Telekinetic Precision desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Levitate:
+    name: 'Levitate'
+    level: 5
+    school: Will
+    desc: Levitate desc
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 6
+  "Familiar (Will)":
+    name: Familiar
+    level: 6
+    school: Will
+    desc: Familiar  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Massive Telekinesis:
+    name: 'Massive Telekinesis '
+    level: 6
+    school: Will
+    desc: Massive Telekinesis  desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: Will
+  Transmutation Armor:
+    name: 'Transmutation Armor'
+    level: 6
+    school: Will
+    desc: Transmutation Armor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    armor: Transmutation
+  #Level 7
+  Mass Telekinetic Burst:
+    name: 'Mass Telekinetic Burst'
+    level: 7
+    school: Will
+    desc: Mass Telekinetic Burst desc
+    target_optional: true
+    target_num: 3
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Mass Telekinetic Burst
+  Mass Flight:
+    name: 'Mass Flight'
+    level: 7
+    school: Will
+    desc: Mass Flight Burst desc
+    target_optional: true
+    target_num: 3
+    is_revive: false
+    is_stun: false
+    roll: true
+  #Level 8
+  Microscopic Telekinesis:
+    name: 'Microscopic Telekinesis'
+    level: 8
+    school: Will
+    desc: Microscopic Telekinesis desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Titanic Telekinesis:
+    name: 'Titanic Telekinesis'
+    level: 8
+    school: Will
+    desc: Titanic Telekinesis desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
