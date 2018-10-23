@@ -261,6 +261,15 @@ spells:
     is_stun: false
     roll: true
   #Level 7
+  Energize Dimensional Anchor (Spirit):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Spirit
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   Clarity:
     name: Clarity
     level: 7

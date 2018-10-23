@@ -212,4 +212,13 @@ spells:
     is_stun: false
     roll: true
     is_res: true
+  Energize Dimensional Anchor (Corpus):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Corpus
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8

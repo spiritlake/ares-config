@@ -209,6 +209,15 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Suffocate Enemy
+  Energize Dimensional Anchor (Air):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Air
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8
   Tempest:
     name: Tempest

@@ -168,6 +168,34 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Dimensional Anchor:
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Will
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Energize Dimensional Anchor (Will):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Will
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+  Open Local Portal:
+    name: 'Open Local Portal'
+    level: 7
+    school: Will
+    desc: Open Local Portal desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
+
   #Level 8
   Microscopic Telekinesis:
     name: 'Microscopic Telekinesis'

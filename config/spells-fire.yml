@@ -148,6 +148,15 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Energize Dimensional Anchor (Fire):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Fire
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8
   Firestorm:
     name: Firestorm

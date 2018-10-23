@@ -186,6 +186,15 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Ice Storm
+  Energize Dimensional Anchor (Water):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Water
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8
   Land Of Ice:
     name: Land Of Ice

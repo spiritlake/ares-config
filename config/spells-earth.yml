@@ -169,6 +169,15 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Exploding Earth
+  Energize Dimensional Anchor (Earth):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Earth
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8
   Massive Quake:
     name: 'Massive Quake'

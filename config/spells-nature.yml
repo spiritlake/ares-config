@@ -190,6 +190,15 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Energize Dimensional Anchor (Nature):
+    name: 'Dimensional Anchor'
+    level: 7
+    school: Nature
+    desc: Dimensional Anchor desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   #Level 8
   Massive Thorn Wall:
     name: Massive Thorn Wall
