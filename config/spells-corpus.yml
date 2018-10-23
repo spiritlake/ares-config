@@ -163,6 +163,14 @@ spells:
     is_stun: false
     roll: true
     weapon_specials: Shrink
+  Revive:
+    name: Revive
+    level: 5
+    school: Corpus
+    desc: Revive desc
+    target_optional: true
+    is_revive: true
+    is_stun: false
   #Level 6
   "Familiar (Corpus)":
     name: Familiar
@@ -173,14 +181,6 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
-  Revive:
-    name: Revive
-    level: 6
-    school: Corpus
-    desc: Revive desc
-    target_optional: true
-    is_revive: true
-    is_stun: false
   Massive Heal:
     name: Massive Heal
     level: 6
