@@ -22,6 +22,15 @@ spells:
     is_revive: false
     is_stun: false
     roll: true
+  Shape Ice:
+    name:   Shape Ice
+    level: 2
+    school: Water
+    desc:  Shape Ice desc
+    target_optional: false
+    is_revive: false
+    is_stun: false
+    roll: true
   Chilled Limbs :
     name: Chilled Limbs
     level: 2
@@ -165,7 +174,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: false
-    weapon: Shatter  
+    weapon: Shatter
   "Familiar (Water)":
     name: Familiar
     level: 6
