@@ -3,7 +3,7 @@ spells:
 # Will
   #Level 1
   Mend:
-    name: 'Mend'
+    name: Mend
     level: 1
     school: Will
     desc: Mend desc
@@ -156,7 +156,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Mass Telekinetic Burst
-  Mass Flight:
+  Test:
     name: 'Mass Flight'
     level: 7
     school: Will
