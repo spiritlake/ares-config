@@ -171,7 +171,7 @@ spells:
   #Level 5
   Blow Object:
     name: 'Blow Object'
-    level: 4
+    level: 5
     school: Air
     desc: Blow Object desc
     target_optional: true

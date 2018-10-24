@@ -156,6 +156,16 @@ spells:
     is_stun: false
     weapon: Exploding Ice
   #Level 6
+  Shatter:
+    name: Shatter
+    level: 6
+    school: Water
+    desc: Shatter desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Shatter  
   "Familiar (Water)":
     name: Familiar
     level: 6

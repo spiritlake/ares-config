@@ -89,6 +89,13 @@ fs3combat:
       is_magic: true
       lethality: 40
       penetration: -4
+    #Level 6
+    Shatter:
+      description: Level 6 Ice spell
+      is_magic: true
+      accuracy: 1
+      lethality: 30
+      penetration: 10      
   #Will Weapon Specials
     #Level 4
     Transform:
