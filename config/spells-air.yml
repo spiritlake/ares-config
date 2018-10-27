@@ -78,6 +78,7 @@ spells:
     school: Air
     desc: Shock desc
     target_optional: true
+    target_num: 1
     fs3_attack: true
     is_revive: false
     is_stun: true
