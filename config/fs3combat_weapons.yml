@@ -95,7 +95,7 @@ fs3combat:
       is_magic: true
       accuracy: 1
       lethality: 30
-      penetration: 10      
+      penetration: 10
   #Will Weapon Specials
     #Level 4
     Transform:
@@ -603,6 +603,22 @@ fs3combat:
       skill: Fire
       lethality: 20
       penetration: 7
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+      special_group: ranged
+    #Level 6
+    Pyre:
+      description: Level 6 Fire spell
+      is_magic: true
+      skill: Fire
+      lethality: 30
+      penetration: 12
       weapon_type: Ranged
       is_automatic: false
       recoil: 0
