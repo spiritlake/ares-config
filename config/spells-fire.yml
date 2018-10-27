@@ -127,6 +127,7 @@ spells:
     target_optional: true
     fs3_attack: true
     is_revive: false
+    target_num: 1
     is_stun: false
     weapon: Pyre
   #Level 7
