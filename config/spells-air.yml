@@ -31,6 +31,7 @@ spells:
     target_optional: false
     is_revive: false
     attack_mod: -1
+    rounds: 2
   Cloud Cover:
     name: 'Cloud Cover'
     level: 2

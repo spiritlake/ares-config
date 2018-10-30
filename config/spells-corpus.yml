@@ -36,6 +36,7 @@ spells:
     attack_mod: -1
     defense_mod: -1
     is_potion: true
+    rounds: 1
   Minor Heal:
     name: 'Minor Heal'
     level: 2
@@ -130,6 +131,7 @@ spells:
     weapon_specials: Agility
     defense_mod: +2
     is_potion: true
+    rounds: 5
   Vitality Weapon:
     name: 'Vitality Weapon'
     level: 4
@@ -153,6 +155,7 @@ spells:
     is_stun: false
     roll: true
     weapon_specials: Grow
+    rounds: 6
   Shrink Self:
     name: 'Shrink Self'
     level: 5

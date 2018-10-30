@@ -43,6 +43,7 @@ spells:
     defense_mod: -1
     attack_mod: -1
     is_potion: true
+    rounds: 1
   Chill Touch:
     name: Chill Touch
     level: 2

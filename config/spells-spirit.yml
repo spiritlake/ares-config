@@ -76,6 +76,7 @@ spells:
     defense_mod: -1
     spell_mod: -1
     is_potion: true
+    rounds: 2
   Emotional Aura:
     name: Emotional Aura
     level: 3
@@ -109,6 +110,7 @@ spells:
     defense_mod: 1
     spell_mod: 1
     is_potion: true
+    rounds: 2
   Mind Bolt:
     name: Mind Bolt
     level: 3
@@ -179,6 +181,7 @@ spells:
     defense_mod: -2
     attack_mod: -2
     spell_mod: -2
+    rounds: 3
   Simple Command:
     name: Simple Command
     level: 5
@@ -200,6 +203,7 @@ spells:
     defense_mod: 2
     attack_mod: 2
     spell_mod: 2
+    rounds: 3
   Commune With Local Spirit:
     name: Commune with Local Spirit
     level: 5
