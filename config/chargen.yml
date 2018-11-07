@@ -17,33 +17,7 @@ chargen:
   app_hold_status: HOLD
   stages:
     start:
-      tutorial: chargen.md
-    app:
-      tutorial: app command.md
-    sheet:
-      help: sheets
-    demographics:
-      help: demographics
-    groups:
-      help: groups
-    ranks:
-      help: ranks
-    background:
-      help: backgrounds
-    abilities:
-      help: skills
-    desc:
-      help: descriptions
-    hooks:
-      help: hooks
-    handles:
-      help: handles
-    profile:
-      help: profile
-    lastwill:
-      help: idle_out
-    review:
-      help: apps
+      tutorial: chargen.md    
   shortcuts:
     chargen: cg
     cg/back: cg/prev
