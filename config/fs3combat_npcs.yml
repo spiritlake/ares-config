@@ -31,4 +31,4 @@ fs3combat:
     Ten:
       Default: 17
       Wounds: -15
-  default_npc_type: Goon
+  default_npc_type: Three
