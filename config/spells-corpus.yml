@@ -172,6 +172,7 @@ spells:
     school: Corpus
     desc: Revive desc
     target_optional: true
+    target_num: 1
     is_revive: true
     is_stun: false
   #Level 6
