@@ -85,7 +85,7 @@ spells:
     is_stun: true
     roll: false
     is_potion: false
-    weapon: Stun
+    weapon: Stun (Air)
   #Level 4
   "Potions (Air)":
     name: 'Potions'
@@ -141,7 +141,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Air)
   Air Scooter:
     name: 'Air Scooter'
     level: 4

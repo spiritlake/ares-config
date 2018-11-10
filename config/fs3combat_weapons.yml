@@ -341,7 +341,7 @@ fs3combat:
     Stun:
       description: Stun spell
       is_magic: true
-      skill: Melee
+      skill: Magic
       lethality: -10
       penetration: 0
       weapon_type: Melee

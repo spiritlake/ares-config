@@ -96,7 +96,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Water)
   #Level 4 Water
   "Potions (Water)":
     name: 'Potions'
@@ -175,7 +175,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: false
-    weapon: Shatter
+    weapon_special: Shatter
   "Familiar (Water)":
     name: Familiar
     level: 6

@@ -62,7 +62,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Spirit)
   Minor Jinx:
     name: Minor Jinx
     level: 3
