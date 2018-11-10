@@ -239,55 +239,55 @@ fs3combat:
       - Head
       - Neck
       - Groin
-Serpent:
-  areas:
-    Head:
-    - Right Flank
-    - Right Flank
-    - Right Flank
-    - Left Flank
-    - Left Flank
-    - Left Flank
-    - Head
-    - Head
-    - Head
-    - Head
-    Right Flank:
-    - Tail
-    - Tail
-    - Tail
-    - Head
-    - Head
-    - Left Flank
-    - Left Flank
-    - Right Flank
-    - Right Flank
-    - Right Flank
-    Left Flank:
-    - Tail
-    - Tail
-    - Tail
-    - Head
-    - Head
-    - Right Flank
-    - Right Flank
-    - Left Flank
-    - Left Flank
-    - Left Flank
-    Tail:
-    - Right Flank
-    - Right Flank
-    - Right Flank
-    - Left Flank
-    - Left Flank
-    - Left Flank
-    - Tail
-    - Tail
-    - Tail
-  vital_areas:
-  - Head
-  critical_areas:
-  - Left Flank
+    Serpent:
+      areas:
+        Head:
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        - Head
+        - Head
+        - Head
+        - Head
+        Right Flank:
+        - Tail
+        - Tail
+        - Tail
+        - Head
+        - Head
+        - Left Flank
+        - Left Flank
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        Left Flank:
+        - Tail
+        - Tail
+        - Tail
+        - Head
+        - Head
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        Tail:
+        - Right Flank
+        - Right Flank
+        - Right Flank
+        - Left Flank
+        - Left Flank
+        - Left Flank
+        - Tail
+        - Tail
+        - Tail
+      vital_areas:
+      - Head
+      critical_areas:
+      - Left Flank
     Fighter:
       areas:
         Body:
