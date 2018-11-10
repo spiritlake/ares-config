@@ -22,7 +22,11 @@ fs3combat:
       defense_skill: None
     Quadraped:
       hitloc: Quadraped
-      weapon: Unarmed
+      weapon: Teeth
+      defense_skill: Reflexes
+    Serpent:
+      hitloc: Serpent
+      weapon: Teeth
       defense_skill: Reflexes
   default_type: Unarmed Combatant
   shortcuts:

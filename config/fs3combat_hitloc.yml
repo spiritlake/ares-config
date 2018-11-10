@@ -131,7 +131,7 @@ fs3combat:
       - Head
       - Neck
       - Groin
-    Serpent:
+    Quadraped:
       areas:
         Chest:
         - Rear Left Leg
