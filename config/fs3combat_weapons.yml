@@ -338,10 +338,108 @@ fs3combat:
       init_mod: 0
       special_group: Melee
   #Spells
-    Stun:
+    Stun (Air):
       description: Stun spell
       is_magic: true
-      skill: Magic
+      skill: Air
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Corpus):
+      description: Stun spell
+      is_magic: true
+      skill: Corpus
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Earth):
+      description: Stun spell
+      is_magic: true
+      skill: Earth
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Fire):
+      description: Stun spell
+      is_magic: true
+      skill: Fire
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Nature):
+      description: Stun spell
+      is_magic: true
+      skill: Nature
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Spirit):
+      description: Stun spell
+      is_magic: true
+      skill: Spirit
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Water):
+      description: Stun spell
+      is_magic: true
+      skill: Water
+      lethality: -10
+      penetration: 0
+      weapon_type: Melee
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 0
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    Stun (Will):
+      description: Stun spell
+      is_magic: true
+      skill: Will
       lethality: -10
       penetration: 0
       weapon_type: Melee
