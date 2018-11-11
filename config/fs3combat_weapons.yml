@@ -89,13 +89,7 @@ fs3combat:
       is_magic: true
       lethality: 40
       penetration: -4
-    #Level 6
-    Shatter:
-      description: Level 6 Ice spell
-      is_magic: true
-      accuracy: 1
-      lethality: 30
-      penetration: 10
+
   #Will Weapon Specials
     #Level 4
     Transform:
@@ -931,6 +925,21 @@ fs3combat:
       recoil: 0
       damage_type: Stun
       accuracy: 3
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+    #Level 6
+    Shatter:
+      description: Level 6 Ice spell
+      is_magic: true
+      skill: Water
+      accuracy: 1
+      lethality: 30
+      penetration: 10
+      weapon_type: Ranged
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
       has_shrapnel: false
       init_mod: 0
       allowed_specials:
