@@ -2,7 +2,7 @@
 magic-items:
   Blessing Of Wisakedjak:
     name: Blessing Of Wisakedjak
-    desc: A six-point deer antler with one tip jaggedly broken off. The base is wrapped and bound in leather that ends in a loop, perfect for attaching to a belt. It grants its owner the ability to cast the Level 6 Nature spell Half Shift, allowing them to transform a portion of their body into a Jenu.
+    desc: A six-point deer antler with one tip jaggedly broken off. The base is wrapped and bound in leather that ends in a loop, perfect for attaching to a belt. It grants its owner the ability to cast the Level 4 Nature spell Half Shift, allowing them to transform a portion of their body into a Jenu.
     spell: Half Shift (Jenu)
   Rosewing:
     name: Rosewing
@@ -19,7 +19,7 @@ magic-items:
     desc: A flying ship that really needs a better desc.
   Horn Of Uktena:
     name: Horn Of Uktena
-    desc: A bit of worn horn that allows the bearer to cast Photosynthesis
+    desc: A bit of worn horn that allows the bearer to cast Photosynthesis.
     spell: Photosynthesis.
   Eye Of The Serpent:
     name: Eye Of The Serpent
