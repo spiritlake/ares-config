@@ -39,13 +39,13 @@ fs3combat:
     Lightning:
       description: Level 4 Air spell
       is_magic: true
-      lethality: 15
+      lethality: 5
   #Corpus Weapon Specials
   #Level 3
     Strength:
       description: Level 3 Corpus spell
       is_magic: true
-      lethality: 10
+      lethality: -5
       penetration: 5
     #Level 4
     Agility:
@@ -55,12 +55,12 @@ fs3combat:
     Vitality:
       description: Level 4 Corpus spells
       is_magic: true
-      lethality: 10
+      lethality: 3
   #Level 5
     Grow:
       description: Level 4 Corpus spell
       is_magic: true
-      lethality: 20
+      lethality: 15
       penetration: 5
     Shrink:
       description: Level 4 Corpus spell
@@ -73,7 +73,6 @@ fs3combat:
     Diamond:
       description: Level 4 Earth spell
       is_magic: true
-      lethality: 10
       Penetration: 2
 
   #Fire Weapon Specials
@@ -81,13 +80,13 @@ fs3combat:
     Fire:
       description: Level 4 Fire spell
       is_magic: true
-      lethality: 25
+      lethality: 5
   #Water Weapon Specials
     #Level 4
     Ice:
       description: Level 4 Ice spell
       is_magic: true
-      lethality: 40
+      lethality: 10
       penetration: -4
 
   #Will Weapon Specials
@@ -96,7 +95,7 @@ fs3combat:
       description: Level 4 Will spell
       is_magic: true
       accuracy: 1
-      lethality: 10
+      lethality: 3
       penetration: 1
 
   weapons:
