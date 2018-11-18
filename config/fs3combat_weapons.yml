@@ -466,7 +466,7 @@ fs3combat:
       description: Level 4 Air spell
       is_magic: true
       skill: Air
-      lethality: 10
+      lethality: 5
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -483,7 +483,7 @@ fs3combat:
       description: Level 5 Air spell
       is_magic: true
       skill: Air
-      lethality: 30
+      lethality: 12
       penetration: 9
       weapon_type: Ranged
       is_automatic: false
@@ -499,7 +499,7 @@ fs3combat:
       description: Level 7 Air spell
       is_magic: true
       skill: Air
-      lethality: 30
+      lethality: 10
       penetration: 50
       weapon_type: Ranged
       is_automatic: false
@@ -515,7 +515,7 @@ fs3combat:
       description: Level 8 Air spell
       is_magic: true
       skill: Air
-      lethality: 80
+      lethality: 45
       penetration: 2
       weapon_type: Explosive
       is_automatic: false
@@ -535,7 +535,7 @@ fs3combat:
       description: Level 3 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 0
+      lethality: -5
       penetration: 5
       weapon_type: Ranged
       is_automatic: false
@@ -550,8 +550,8 @@ fs3combat:
       description: Level 3 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 0
-      penetration: 4
+      lethality: -10
+      penetration: 5
       weapon_type: Explosive
       is_automatic: false
       recoil: 0
@@ -565,7 +565,7 @@ fs3combat:
       description: Level 3 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 5
+      lethality: -5
       penetration: 6
       weapon_type: Ranged
       is_automatic: false
@@ -612,7 +612,7 @@ fs3combat:
       description: Level 5 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 20
+      lethality: 10
       penetration: 10
       weapon_type: Ranged
       is_automatic: false
@@ -628,7 +628,7 @@ fs3combat:
       description: Level 6 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 30
+      lethality: 15
       penetration: 12
       weapon_type: Ranged
       is_automatic: true
@@ -644,7 +644,7 @@ fs3combat:
       description: Level 7 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 40
+      lethality: 15
       penetration: 13
       weapon_type: Explosive
       is_automatic: true
@@ -660,7 +660,7 @@ fs3combat:
       description: Level 8 Earth spell
       is_magic: true
       skill: Earth
-      lethality: 80
+      lethality: 45
       penetration: 20
       weapon_type: Explosive
       is_automatic: false
@@ -677,7 +677,7 @@ fs3combat:
       description: Level 3 Fire spell
       is_magic: true
       skill: Fire
-      lethality: 5
+      lethality: -5
       penetration: 6
       weapon_type: Melee
       is_automatic: false
@@ -693,7 +693,7 @@ fs3combat:
       description: Level 4 Fire spell
       is_magic: true
       skill: Fire
-      lethality: 20
+      lethality: 7
       penetration: 7
       weapon_type: Ranged
       is_automatic: false
@@ -709,7 +709,7 @@ fs3combat:
       description: Level 6 Fire spell
       is_magic: true
       skill: Fire
-      lethality: 30
+      lethality: 15
       penetration: 12
       weapon_type: Ranged
       is_automatic: false
@@ -725,7 +725,7 @@ fs3combat:
       description: Level 8 Fire spell
       is_magic: true
       skill: Fire
-      lethality: 80
+      lethality: 45
       penetration: 20
       weapon_type: Explosive
       is_automatic: false
@@ -743,7 +743,7 @@ fs3combat:
       description: Level 3 Nature spell
       is_magic: true
       skill: Nature
-      lethality: 0
+      lethality: -10
       penetration: 4
       weapon_type: Explosive
       is_automatic: false
@@ -759,7 +759,7 @@ fs3combat:
       description: Level 4 Nature spell
       is_magic: true
       skill: Nature
-      lethality: 20
+      lethality: 8
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -775,7 +775,7 @@ fs3combat:
       description: Level 6 Nature spell
       is_magic: true
       skill: Nature
-      lethality: 15
+      lethality: 10
       penetration: 50
       weapon_type: Explosive
       is_automatic: false
@@ -841,7 +841,7 @@ fs3combat:
       description: Level 3 Water spell
       is_magic: true
       skill: Water
-      lethality: 5
+      lethality: -5
       penetration: 6
       weapon_type: Melee
       is_automatic: false
@@ -857,7 +857,7 @@ fs3combat:
       description: Level 4 Water spell
       is_magic: true
       skill: Water
-      lethality: 5
+      lethality: 0
       penetration: 6
       weapon_type: Melee
       is_automatic: false
@@ -872,7 +872,7 @@ fs3combat:
       description: Level 4 Water spell
       is_magic: true
       skill: Water
-      lethality: 15
+      lethality: 5
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -887,7 +887,7 @@ fs3combat:
       description: Level 4 Water spell
       is_magic: true
       skill: Water
-      lethality: 10
+      lethality: 0
       penetration: 8
       weapon_type: Explosive
       is_automatic: false
@@ -934,7 +934,7 @@ fs3combat:
       is_magic: true
       skill: Water
       accuracy: 1
-      lethality: 30
+      lethality: 18
       penetration: 10
       weapon_type: Ranged
       is_automatic: false
@@ -948,7 +948,7 @@ fs3combat:
       description: Level 7 Water spell
       is_magic: true
       skill: Water
-      lethality: 40
+      lethality: 15
       penetration: 13
       weapon_type: Explosive
       is_automatic: true
@@ -964,7 +964,7 @@ fs3combat:
         description: Level 8 Water spell
         is_magic: true
         skill: Water
-        lethality: 80
+        lethality: 45
         penetration: 20
         weapon_type: Explosive
         is_automatic: false
@@ -982,7 +982,7 @@ fs3combat:
       description: Level 4 Will spell
       is_magic: true
       skill: Will
-      lethality: 15
+      lethality: 3
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -998,7 +998,7 @@ fs3combat:
       description: Level 7 Will spell
       is_magic: true
       skill: Will
-      lethality: 40
+      lethality: 15
       penetration: 13
       weapon_type: Explosive
       is_automatic: true
