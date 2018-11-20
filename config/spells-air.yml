@@ -102,6 +102,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Lightning
+    rounds: 10
     is_potion: true
   Air Walk:
     name: 'Air Walk '

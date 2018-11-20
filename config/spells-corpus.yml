@@ -142,6 +142,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Vitality
+    rounds: 10
     heal_points: 3
     is_potion: true
   #Level 5
