@@ -74,7 +74,7 @@ fs3combat:
     Diamond:
       description: Level 4 Earth spell
       is_magic: true
-      Penetration: 2
+      Penetration: 3
 
   #Fire Weapon Specials
     #Level 4
@@ -471,7 +471,7 @@ fs3combat:
       description: Level 4 Air spell
       is_magic: true
       skill: Air
-      lethality: 5
+      lethality: 0
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -698,7 +698,7 @@ fs3combat:
       description: Level 4 Fire spell
       is_magic: true
       skill: Fire
-      lethality: 7
+      lethality: 0
       penetration: 7
       weapon_type: Ranged
       is_automatic: false
@@ -764,7 +764,7 @@ fs3combat:
       description: Level 4 Nature spell
       is_magic: true
       skill: Nature
-      lethality: 8
+      lethality: 0
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -877,7 +877,7 @@ fs3combat:
       description: Level 4 Water spell
       is_magic: true
       skill: Water
-      lethality: 5
+      lethality: 0
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
@@ -988,7 +988,7 @@ fs3combat:
       description: Level 4 Will spell
       is_magic: true
       skill: Will
-      lethality: 3
+      lethality: -3
       penetration: 8
       weapon_type: Ranged
       is_automatic: false
