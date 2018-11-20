@@ -68,6 +68,7 @@ spells:
     is_stun: false
     is_potion: true
     weapon_specials: Transform
+    rounds: 10
   Telekinetic Armor:
     name: 'Telekinetic Armor'
     level: 4

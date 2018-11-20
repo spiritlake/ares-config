@@ -89,6 +89,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Diamond
+    rounds: 10
     is_potion: true
   Crystalline Armor:
     name: 'Crystalline Armor'

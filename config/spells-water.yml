@@ -123,6 +123,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Ice
+    rounds: 10
     is_potion: true
   Water Whip:
     name: Water Whip
@@ -175,7 +176,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: false
-    weapon: Shatter
+    weapon_special: Shatter
   "Familiar (Water)":
     name: Familiar
     level: 6
