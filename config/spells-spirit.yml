@@ -62,7 +62,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Spirit)
   Minor Jinx:
     name: Minor Jinx
     level: 3
@@ -92,6 +92,16 @@ spells:
     level: 3
     school: Spirit
     desc: Awaken Terror
+    target_optional: true
+    target_num: 1
+    is_revive: false
+    is_stun: false
+    roll: true
+  Charmed:
+    name: Charmed
+    level: 3
+    school: Spirit
+    desc: Charmed
     target_optional: true
     target_num: 1
     is_revive: false

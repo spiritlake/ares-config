@@ -173,6 +173,7 @@ spells:
     school: Corpus
     desc: Revive desc
     target_optional: true
+    target_num: 1
     is_revive: true
     is_stun: false
   #Level 6
@@ -214,8 +215,8 @@ spells:
     target_num: 3
     is_revive: true
     is_stun: false
-    roll: true
-    is_res: true
+    roll: false
+    is_res: false
   Energize Dimensional Anchor (Corpus):
     name: 'Dimensional Anchor'
     level: 7

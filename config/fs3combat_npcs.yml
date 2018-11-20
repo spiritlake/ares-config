@@ -15,7 +15,7 @@ fs3combat:
       Wounds: 20
     Five:
       Default: 8
-      Wounds: 15
+      Wounds: 30
     Six:
       Default: 10
       Wounds: 15
@@ -31,4 +31,4 @@ fs3combat:
     Ten:
       Default: 17
       Wounds: -15
-  default_npc_type: Goon
+  default_npc_type: Three

@@ -2,7 +2,7 @@
 magic-items:
   Blessing Of Wisakedjak:
     name: Blessing Of Wisakedjak
-    desc: A six-point deer antler with one tip jaggedly broken off. The base is wrapped and bound in leather that ends in a loop, perfect for attaching to a belt. It grants its owner the ability to cast the Level 6 Nature spell Half Shift, allowing them to transform a portion of their body into a Jenu.
+    desc: A six-point deer antler with one tip jaggedly broken off. The base is wrapped and bound in leather that ends in a loop, perfect for attaching to a belt. It grants its owner the ability to cast the Level 4 Nature spell Half Shift, allowing them to transform a portion of their body into a Jenu.
     spell: Half Shift (Jenu)
   Rosewing:
     name: Rosewing
@@ -17,3 +17,18 @@ magic-items:
   Konvaskr:
     name: Konvaskr
     desc: A flying ship that really needs a better desc.
+  Horn Of Uktena:
+    name: Horn Of Uktena
+    desc: A bit of worn horn that allows the bearer to cast Photosynthesis.
+    spell: Photosynthesis.
+  Eye Of The Serpent:
+    name: Eye Of The Serpent
+    desc: A briliant diamond the size of a child's fist. It allows the bearer to cast Clarity.
+    spell: Clarity
+  Eye of Apepnet:
+    name: Eye of Apepnet
+    desc: Allows the possessor to cast Dreamtrap on a target.
+    spell: Dreamtrap
+  Band Of The Unseen:
+    name: Band of the Unseen
+    desc: A slender golden armband, the magical item is embossed with a depiction of the antagonist god Set. He is represented traditionally here. The only variation is the brightly colored blindfold that's been tied over his eyes. When worn in the open or beneath one's clothes, the armband acts as a blockade against intrusions from the Spirit school by those who would do the wearer ill. Magic users with friendly or sincerely good intentions are not protected against.

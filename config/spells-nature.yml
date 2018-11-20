@@ -40,7 +40,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Nature)
   Swarm:
     name: Swarm
     level: 3
@@ -51,7 +51,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: true
-    weapon: Stun
+    weapon: Stun (Nature)
   Thorn Growth:
     name: Thorn Growth
     level: 3
