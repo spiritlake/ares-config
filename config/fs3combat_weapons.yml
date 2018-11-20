@@ -892,7 +892,7 @@ fs3combat:
       description: Level 4 Water spell
       is_magic: true
       skill: Water
-      lethality: 0
+      lethality: -5
       penetration: 7
       weapon_type: Explosive
       is_automatic: false
