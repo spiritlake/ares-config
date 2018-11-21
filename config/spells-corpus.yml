@@ -219,7 +219,7 @@ spells:
     is_revive: true
     is_stun: false
     roll: true
-    is_res: true
+    is_res: false
   Energize Dimensional Anchor (Corpus):
     name: 'Dimensional Anchor'
     level: 7
