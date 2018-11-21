@@ -58,7 +58,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Strength
-    rounds: 10
+    rounds: 100
     is_potion: true
   Flesh Wound:
     name: 'Flesh Wound'
@@ -130,7 +130,6 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Agility
-    rounds: 10
     defense_mod: +2
     is_potion: true
     rounds: 5
@@ -144,7 +143,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Vitality
-    rounds: 10
+    rounds: 100
     heal_points: 3
     is_potion: true
   #Level 5

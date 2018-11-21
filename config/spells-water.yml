@@ -123,7 +123,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Ice
-    rounds: 10
+    rounds: 100
     is_potion: true
   Water Whip:
     name: Water Whip
