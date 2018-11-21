@@ -178,6 +178,7 @@ spells:
     target_optional: true
     is_revive: true
     is_stun: false
+    target_num: 1
   #Level 6
   "Familiar (Corpus)":
     name: Familiar
