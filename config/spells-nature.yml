@@ -117,7 +117,7 @@ spells:
     is_stun: false
     weapon: Jenu
     armor: Jenu
-  Shield of the Forest:
+  Shield Of The Forest:
     name: Shield of the Forest
     level: 4
     school: Nature
