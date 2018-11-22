@@ -30,7 +30,7 @@ fs3combat:
       - Metal Helmet
       - Chainmail Coif
     Plate:
-      description: Plate armor
+      description: Full plate armor
       is_magic: false
       defense: 0
       protection:

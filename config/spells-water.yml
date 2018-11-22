@@ -176,7 +176,7 @@ spells:
     fs3_attack: true
     is_revive: false
     is_stun: false
-    weapon_special: Shatter
+    weapon: Shatter
   "Familiar (Water)":
     name: Familiar
     level: 6
