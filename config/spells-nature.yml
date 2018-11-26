@@ -170,6 +170,7 @@ spells:
     is_stun: false
     roll: true
     defense_mod: 1
+    rounds: 100
   Poison Puffs:
     name: Poison Puffs
     level: 6
