@@ -89,7 +89,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Diamond
-    rounds: 10
+    rounds: 100
     is_potion: true
   Crystalline Armor:
     name: 'Crystalline Armor'
@@ -165,7 +165,7 @@ spells:
     school: Earth
     desc: Exploding Earth desc
     target_optional: true
-    target_num: 1
+    target_num: 3
     fs3_attack: true
     is_revive: false
     is_stun: false

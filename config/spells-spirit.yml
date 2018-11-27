@@ -207,7 +207,8 @@ spells:
     level: 5
     school: Spirit
     desc: Medium Luck
-    target_optional: false
+    target_optional: true
+    target_num: 1
     is_revive: false
     is_stun: false
     defense_mod: 2

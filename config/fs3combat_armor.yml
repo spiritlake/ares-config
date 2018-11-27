@@ -29,6 +29,34 @@ fs3combat:
       - Leather Helmet
       - Metal Helmet
       - Chainmail Coif
+    Plate:
+      description: Full plate armor
+      is_magic: false
+      defense: 0
+      protection:
+        Chest: 9
+        Abdomen: 8
+        Left Arm: 9
+        Right Arm: 9
+        Right Leg: 7
+        Left Leg: 7
+      allowed_specials:
+      - Leather Helmet
+      - Metal Helmet
+      - Chainmail Coif
+    Leather:
+      description: Leather armor
+      is_magic: false
+      defense: 0
+      protection:
+        Chest: 7
+        Abdomen: 6
+        Left Arm: 7
+        Right Arm: 7
+      allowed_specials:
+      - Leather Helmet
+      - Metal Helmet
+      - Chainmail Coif
     Police:
       description: Police-Grade Kevlar Vest
       is_magic: false

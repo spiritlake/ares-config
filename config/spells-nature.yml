@@ -117,7 +117,7 @@ spells:
     is_stun: false
     weapon: Jenu
     armor: Jenu
-  Shield of the Forest:
+  Shield Of The Forest:
     name: Shield of the Forest
     level: 4
     school: Nature
@@ -171,6 +171,7 @@ spells:
     is_stun: false
     roll: true
     defense_mod: 1
+    rounds: 100
   Poison Puffs:
     name: Poison Puffs
     level: 6

@@ -88,7 +88,7 @@ spells:
     is_revive: false
     is_stun: false
     weapon_specials: Fire
-    rounds: 10
+    rounds: 100
     is_potion: true
   Flame Burst:
     name: Flame Burst
