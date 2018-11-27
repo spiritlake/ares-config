@@ -127,6 +127,7 @@ spells:
     is_revive: false
     is_stun: false
     stance: cover
+    rounds: 1
   Acid Spit:
     name: Acid Spit
     level: 4

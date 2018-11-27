@@ -111,6 +111,7 @@ spells:
     is_revive: false
     is_stun: false
     stance: hidden
+    rounds: 30
   #Level 6
   "Familiar (Fire)":
     name: Familiar

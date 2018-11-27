@@ -52,6 +52,7 @@ spells:
     target_num: 1
     is_revive: false
     stance: cover
+    rounds: 1
   #Level 4 Will
   "Potions (Will)":
     name: 'Potions'

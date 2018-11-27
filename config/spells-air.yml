@@ -42,6 +42,7 @@ spells:
     is_revive: false
     is_stun: false
     stance: Hidden
+    rounds: 90
     is_potion: true
   #Level 3
   Whispering Wind :
@@ -63,6 +64,7 @@ spells:
     is_revive: false
     is_stun: false
     stance: cover
+    rounds: 1
   Electric Surge:
     name: 'Electric Surge'
     level: 3
