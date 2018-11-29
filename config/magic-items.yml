@@ -24,7 +24,7 @@ magic-items:
   Horn Of Uktena:
     name: Horn Of Uktena
     desc: A bit of worn horn that allows the bearer to cast Photosynthesis.
-    spell: Photosynthesis.
+    spell: Photosynthesis
   Eye Of The Serpent:
     name: Eye Of The Serpent
     desc: A briliant diamond the size of a child's fist. It allows the bearer to cast Clarity.
