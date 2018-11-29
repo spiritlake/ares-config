@@ -153,6 +153,7 @@ spells:
     is_stun: false
     roll: false
     heal_points: 100
+    target_optional: true
     target_num: 1
   Energize Dimensional Anchor (Fire):
     name: 'Dimensional Anchor'
