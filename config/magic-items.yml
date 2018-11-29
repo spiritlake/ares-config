@@ -29,7 +29,7 @@ magic-items:
     name: Eye Of The Serpent
     desc: A briliant diamond the size of a child's fist. It allows the bearer to cast  %xBClarity%xn.
     spell: Clarity
-  Eye of Apepnet:
+  Eye Of Apepnet:
     name: Eye of Apepnet
     desc: The eye is a perfect orb, larger than the size of a closed fist, composed of a freckled gold stone. It is preserved in an eternally seeing state with its diamond shaped pupil large and black as night. To look upon it for too long is unnerving as if the great snake still watches one's movements. It is cool to the touch. Allows the possessor to cast  %xBDreamtrap%xn on a target.
     spell: Dreamtrap
