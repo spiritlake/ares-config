@@ -150,6 +150,8 @@ fs3combat:
       description: Level 6 Nature spell
       is_magic: true
       defense: 3
+      protection:
+        Head: 0
   #Water
     #Level 4
     Ice:
