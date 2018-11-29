@@ -148,9 +148,8 @@ spells:
     target_optional: false
     is_revive: false
     is_stun: false
-    roll: false
-    armor: None
-    armor_specials: Moth
+    roll: true
+    armor: Moth
   #Level 6
   "Familiar (Nature)":
     name: Familiar
