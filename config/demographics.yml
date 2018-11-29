@@ -72,7 +72,7 @@ demographics:
     demographics: demographic
   census_fields:
   - field: name
-    width: 28
+    width: 20
     title: Name
   - field: demographic
     width: 10
@@ -80,9 +80,9 @@ demographics:
     value: gender
   - field: group
     width: 20
-    title: Faction
-    value: Faction
+    title: Major School
+    value: Major School
   - field: group
     width: 20
-    title: Position
-    value: Position
+    title: Minor School
+    value: Minor School
