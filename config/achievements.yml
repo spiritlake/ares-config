@@ -5,3 +5,7 @@ achievements:
     portal: fa-globe
     fs3: fa-cubes
     story: fa-book
+    spell: fa-magic
+    potion: fa-flask
+    death: fa-skull-crossbones
+    plot: fa-book-open
