@@ -4,7 +4,7 @@ jobs:
     APP:
       color: "%xm"
     BUILD:
-      color: "%xc"
+      color: "%xr"
       roles:
       - builder
     BUG:
@@ -16,21 +16,19 @@ jobs:
       roles:
       - coder
     ALERT:
-      color: "%xr"
+      color: "%xy"
     MISC:
       color: "%xh"
     PLOT:
       color: "%xc"
     REQ:
-      color: "%xm"
-    RP:
-      color: "%xc"
+      color: "%xw"
     SYS:
       color: "%xh"
     SPELL:
       color: "%xb"
     LUCK:
-      color: "%xY"
+      color: "%xc"
   closed_status: DONE
   default_status: NEW
   request_category: REQ
