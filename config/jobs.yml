@@ -28,9 +28,9 @@ jobs:
     SYS:
       color: "%xh"
     SPELL:
-      color: "%xB"
+      color: "%xb"
     LUCK:
-      color: "%xY"      
+      color: "%xY"
   closed_status: DONE
   default_status: NEW
   request_category: REQ
