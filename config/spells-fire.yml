@@ -100,7 +100,19 @@ spells:
     is_revive: false
     is_stun: false
     weapon: Flame Burst
+    target_num: 1
   #Level 5
+  Flares:
+    name: Flares
+    level: 5
+    school: Fire
+    desc: Flares desc
+    target_optional: true
+    fs3_attack: true
+    is_revive: false
+    is_stun: false
+    weapon: Flares
+    target_num: 3
   Invisible:
     name: Invisible
     level: 5

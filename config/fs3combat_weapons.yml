@@ -710,6 +710,22 @@ fs3combat:
       init_mod: 0
       allowed_specials:
       special_group: ranged
+    #Level 5 Fire
+    Flares:
+      description: Level 5 Fire spell
+      is_magic: true
+      skill: Fire
+      lethality: 7
+      penetration: 9
+      weapon_type: Explosive
+      is_automatic: false
+      recoil: 0
+      damage_type: Physical
+      accuracy: 1
+      has_shrapnel: false
+      init_mod: 0
+      allowed_specials:
+      special_group: ranged
     #Level 6
     Pyre:
       description: Level 6 Fire spell
