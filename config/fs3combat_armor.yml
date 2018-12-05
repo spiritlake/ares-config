@@ -30,9 +30,9 @@ fs3combat:
       - Metal Helmet
       - Chainmail Coif
     Plate:
-      description: Full plate armor
+      description: Full plate armor with no helmet
       is_magic: false
-      defense: 0
+      defense: -1
       protection:
         Chest: 9
         Abdomen: 8

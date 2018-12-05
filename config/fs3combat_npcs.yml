@@ -1,8 +1,8 @@
 ---
 fs3combat:
   npc_types:
-    Goon:
-      Default: 4
+    One:
+      Default: 2
       Wounds: 30
     Two:
       Default: 3

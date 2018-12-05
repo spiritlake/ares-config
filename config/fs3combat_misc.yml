@@ -3,9 +3,16 @@ fs3combat:
   allow_mounts: false
   allow_vehicles: false
   combatant_types:
+    Knight:
+      weapon: Sword
+      weapon_specials:
+      armor: Plate
+      hitloc: Humanoid
+      defense_skill: Reflexes
+      armor_specials: Metal Helmet
     Observer:
       hitloc: Humanoid
-    Soldier:
+    Modern Soldier:
       weapon: Rifle
       weapon_specials:
       armor: Tactical
@@ -22,11 +29,7 @@ fs3combat:
       defense_skill: None
     Quadraped:
       hitloc: Quadraped
-      weapon: Teeth
-      defense_skill: Reflexes
-    Serpent:
-      hitloc: Serpent
-      weapon: Teeth
+      weapon: Unarmed
       defense_skill: Reflexes
   default_type: Unarmed Combatant
   shortcuts:
