@@ -9,7 +9,24 @@ fs3combat:
       armor: Plate
       hitloc: Humanoid
       defense_skill: Reflexes
-      armor_specials: Metal Helmet
+    Archer:
+      weapon: Bow
+      weapon_specials:
+      armor: Leather
+      hitloc: Humanoid
+      defense_skill: Reflexes
+    Rogue:
+      weapon: Knife
+      weapon_specials:
+      armor: Leather
+      hitloc: Humanoid
+      defense_skill: Reflexes
+    Swordsman:
+      weapon: Sword
+      weapon_specials:
+      armor: Chainmail
+      hitloc: Humanoid
+      defense_skill: Reflexes
     Observer:
       hitloc: Humanoid
     Modern Soldier:
@@ -18,7 +35,7 @@ fs3combat:
       armor: Tactical
       hitloc: Humanoid
       defense_skill: Reflexes
-    Unarmed Combatant:
+    Unarmed:
       weapon: Unarmed
       armor: None
       hitloc: Humanoid
@@ -27,9 +44,14 @@ fs3combat:
       hitloc: Target
       weapon: Unarmed
       defense_skill: None
+    #Creatures
     Quadraped:
       hitloc: Quadraped
-      weapon: Unarmed
+      weapon: Teeth
+      defense_skill: Reflexes
+    Serpent:
+      hitloc: Serpent
+      weapon: Teeth
       defense_skill: Reflexes
   default_type: Unarmed Combatant
   shortcuts:
