@@ -158,7 +158,7 @@ spells:
     is_stun: false
     roll: true
     is_potion: true
-  Spirit of Pacifism:
+  Spirit Of Pacifism:
     name: Spirit of Pacifism
     level: 4
     school: Spirit
