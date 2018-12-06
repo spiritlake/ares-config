@@ -35,7 +35,7 @@ fs3combat:
       armor: Tactical
       hitloc: Humanoid
       defense_skill: Reflexes
-    Unarmed:
+    Unarmed Combatant:
       weapon: Unarmed
       armor: None
       hitloc: Humanoid
