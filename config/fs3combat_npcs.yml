@@ -30,5 +30,5 @@ fs3combat:
       Wounds: -10
     Ten:
       Default: 17
-      Wounds: -15
+      Wounds: -30
   default_npc_type: Three
