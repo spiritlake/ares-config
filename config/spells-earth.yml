@@ -186,7 +186,7 @@ spells:
     school: Earth
     desc: Massive Quake
     target_optional: true
-    target_num: 1
+    target_num: 10
     fs3_attack: true
     is_revive: false
     is_stun: false
