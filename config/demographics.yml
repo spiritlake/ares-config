@@ -1,5 +1,21 @@
 ---
 demographics:
+  census_fields:
+  - field: name
+    width: 20
+    title: Name
+  - field: demographic
+    width: 10
+    title: Gender
+    value: gender
+  - field: group
+    width: 20
+    title: Major School
+    value: Major School
+  - field: group
+    width: 20
+    title: Minor School
+    value: Minor School
   demographics:
   - actor
   - hair
@@ -40,10 +56,6 @@ demographics:
         Spirit: Magic focused on the sentient mind, emotions, and spirit.
         Water: Magic focused on water and ice.
         Will: Magic focused on the physical world.
-  secret_prefs:
-    None: No secrets at all
-    Known: You know the secret about your character
-    GM: Only GMs know the secret about your character until it comes out in play
   help_text:
     actor: See 'help actors'.
     physique: Build/body type - athletic, wiry, slim, pudgy, etc.
@@ -66,23 +78,12 @@ demographics:
   - fullname
   - gender
   - birthdate
+  secret_prefs:
+    None: No secrets at all
+    Known: You know the secret about your character
+    GM: Only GMs know the secret about your character until it comes out in play
   shortcuts:
     groups: group
     colonies: group colony
     demographics: demographic
-  census_fields:
-  - field: name
-    width: 20
-    title: Name
-  - field: demographic
-    width: 10
-    title: Gender
-    value: gender
-  - field: group
-    width: 20
-    title: Major School
-    value: Major School
-  - field: group
-    width: 20
-    title: Minor School
-    value: Minor School
+  private_properties: {}
