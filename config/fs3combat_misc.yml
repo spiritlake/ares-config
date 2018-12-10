@@ -53,7 +53,7 @@ fs3combat:
       hitloc: Serpent
       weapon: Teeth
       defense_skill: Reflexes
-  default_type: Unarmed
+  default_type: Unarmed Combatant
   shortcuts:
     combat/skill: combat/summary
     combat/skills: combat/summary
